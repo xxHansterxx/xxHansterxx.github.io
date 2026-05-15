@@ -9,15 +9,51 @@
 
 .initial_sketch
 {
+	width: 800px;   
+	height: 600px;  
+	object-fit: cover; 
+}
+
+.initial_skull_sketch
+{
+	width: 600px;   
+	height: 500px;  
+	object-fit: cover; 
+}
+.key_hole
+{
 	width: 500px;   
 	height: 500px;  
 	object-fit: cover; 
 }
-
-.initial__skull_sketch
+.skull_side
 {
 	width: 600px;   
-	height: 500px;  
+	height: 600px;  
+	object-fit: cover; 
+}
+.skull_top
+{
+	width: 600px;   
+	height: 600px;  
+	object-fit: cover; 
+}
+.base_image
+{
+	width: 500px;   
+	height: 700px;  
+	object-fit: cover; 
+}
+.base_image_top
+{
+	width: 800px;   
+	height: 600px;  
+	object-fit: cover; 
+}
+.base_image_behind
+{
+	width: 500px;   
+	height: 700px;  
 	object-fit: cover; 
 }
 
