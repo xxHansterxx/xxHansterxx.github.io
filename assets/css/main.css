@@ -2549,12 +2549,11 @@ input, select, textarea {
 
 		/* Button */
 
-			.button {
-				padding-left: 0;
-				padding-right: 0;
-				width: 100%;
-				max-width: 24em;
-			}
+		.button {
+			display: inline-block;
+			width: 220px;
+			text-align: center;
+		}
 
 		/* Icons */
 
