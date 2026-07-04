@@ -2,10 +2,12 @@
 .reference
 {
   text-align: center;
+  
 }
 .reference_buttons
 {
   text-align: center;
+  margin: 5px;
   margin-top: 0px;
   height: auto;
   width: auto;
@@ -46,6 +48,8 @@
     width: 1219px;
     margin: auto;
     margin-bottom: 50px;
+
+    text-align: center;
 }
 .html_image
 {
@@ -189,6 +193,20 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.module_completion
+{
+    width:225px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
 /* Home page content styling */
 .profile_pic
 {
@@ -196,6 +214,7 @@
     height: 209px;
     float: right;
     margin-left: 50px;
+    margin-right: 10px;
 }
 
 /* Home page title styling */
@@ -329,7 +348,7 @@
 }
 #fyp_button
 {
-      background: rgb(255, 183, 183);
+    background: rgb(255, 183, 183);
     color: rgb(0, 0, 0);
 
     width: 250px; 

@@ -1,1 +1,1 @@
-# StudyPath.github.io
+Study_Path
