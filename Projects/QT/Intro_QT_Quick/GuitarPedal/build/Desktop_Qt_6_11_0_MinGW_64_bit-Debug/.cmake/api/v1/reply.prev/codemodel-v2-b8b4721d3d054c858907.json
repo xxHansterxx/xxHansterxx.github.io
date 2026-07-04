@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bb0d794ee5047a236a3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GuitarPedal",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-0463cfa5dcc05b66e575.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-1ab52d79816c7ffd72ba.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-b6b40089a77d7c8e9167.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-810e1be2218bd0bb5ce9.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-94ce07723dcad41d13e9.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal-Debug-9965dda0e02f39b57a2a.json",
+					"name" : "appGuitarPedal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_autogen-Debug-dc9ee3bb47b224b9ca2a.json",
+					"name" : "appGuitarPedal_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_autogen_timestamp_deps-Debug-1adbdbf73e158b845633.json",
+					"name" : "appGuitarPedal_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_copy_qml-Debug-8a13d67db02a40fff2a3.json",
+					"name" : "appGuitarPedal_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_copy_res-Debug-9a7fb4b0304563dd8e9a.json",
+					"name" : "appGuitarPedal_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_qmlimportscan-Debug-6ab24e1b4220d686856b.json",
+					"name" : "appGuitarPedal_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_qmllint-Debug-4308b495e4f6bd1fbf5d.json",
+					"name" : "appGuitarPedal_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_qmllint_json-Debug-ee6be7bc2405b74ff966.json",
+					"name" : "appGuitarPedal_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_qmllint_module-Debug-f033c49c36cdfa344c26.json",
+					"name" : "appGuitarPedal_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGuitarPedal_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGuitarPedal_qmltyperegistration-Debug-e516a5e6ec3aa6741571.json",
+					"name" : "appGuitarPedal_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-c549c9d25193d907838c.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3d53ae8505903ba819be.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-dcda1775b1618706fc50.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appGuitarPedal_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appGuitarPedal_aotstats_target-Debug-21a8012a1a8e1ffb14eb.json",
+					"name" : "module_appGuitarPedal_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick/GuitarPedal"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

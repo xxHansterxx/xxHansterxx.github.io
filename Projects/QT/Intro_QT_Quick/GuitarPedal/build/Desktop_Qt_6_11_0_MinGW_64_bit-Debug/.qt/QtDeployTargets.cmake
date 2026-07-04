@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_appGuitarPedal_FILE C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appGuitarPedal.exe)
+set(__QT_DEPLOY_TARGET_appGuitarPedal_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appGuitarPedal_RUNTIME_DLLS C:/Qt/6.11.0/mingw_64/bin/Qt6Quick.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6QmlMeta.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6QmlWorkerScript.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Qml.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Network.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Core.dll)
