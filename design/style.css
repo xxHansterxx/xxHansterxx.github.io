@@ -409,7 +409,7 @@
     flex-direction: column;
     justify-content: center;  
 }
-#fyp_button
+.linkbutton
 {
     background: rgb(255, 183, 183);
     color: rgb(0, 0, 0);
@@ -458,14 +458,6 @@
     height: 100px;
     width: 100px;
     margin: 50px;
-}
-.ResearchLinkIcon
-{
-    height: 100px;
-    width: 100px;
-    border-radius: 5px;
-    margin-left: 400px;
-    margin-bottom: 10px;
 }
 header
 {
