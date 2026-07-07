@@ -30,6 +30,35 @@
   margin-bottom: 100px;
 }
 
+.EmbeddedMindmap
+{
+  width: 1160px;
+  height: 805px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.EmbeddedFlowchart
+{
+  width: 648px;
+  height: 813px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.TestPlan
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 /*HTML page content styling*/
 .checklist
 {
@@ -323,6 +352,14 @@
     margin-top: 0px;
     font-size: 16px;
     text-align: left;
+}
+
+.milestone_text
+{
+    margin: 10px;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .solid {
