@@ -327,13 +327,45 @@
   transform: rotate(45deg);
 }
 
-/* continue*/
+
+/* general styling */
+.research_links
+{
+      text-align: left;
+      margin-left: 350px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+}
+.milestone_subheading
+{
+    text-align: left;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.milestone_subheading2
+{
+    text-align: left;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .date
 {
     text-align: left;
     margin-left: 200px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.milestone_text
+{
+    margin: 10px;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .page_title
@@ -343,23 +375,12 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
-
-/* general styling */
 .general_text
 {
     margin: 10px;
     margin-top: 0px;
     font-size: 16px;
     text-align: left;
-}
-
-.milestone_text
-{
-    margin: 10px;
-    margin-top: 0px;
-    font-size: 16px;
-    text-align: center;
 }
 
 .solid {
@@ -432,14 +453,20 @@
     margin-bottom: 5px;
 }
 
-.LinkedIn
+.LinkIcon
+{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+.ResearchLinkIcon
 {
     height: 100px;
     width: 100px;
     border-radius: 5px;
-    margin: 50px;
+    margin-left: 400px;
+    margin-bottom: 10px;
 }
-
 header
 {
     font-family: Arial;
