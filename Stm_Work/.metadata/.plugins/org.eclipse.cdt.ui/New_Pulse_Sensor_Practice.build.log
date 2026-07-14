@@ -1,0 +1,33 @@
+09:11:13 **** Build of configuration Debug for project New_Pulse_Sensor_Practice ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_DIRECT_SMPS_SUPPLY -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32H7xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'Pulse_frequency':
+../Core/Src/main.c:368:12: warning: implicit declaration of function '___HAL_TIM_GET_FLAG' [-Wimplicit-function-declaration]
+  368 |         if(___HAL_TIM_GET_FLAG(&htim5, TIM_FLAG_UPDATE) == 1)
+      |            ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:370:17: error: 'pulse_count' undeclared (first use in this function)
+  370 |                 pulse_count = 6000/count_interval_cycle;
+      |                 ^~~~~~~~~~~
+../Core/Src/main.c:370:17: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:370:36: error: 'count_interval_cycle' undeclared (first use in this function)
+  370 |                 pulse_count = 6000/count_interval_cycle;
+      |                                    ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:372:17: error: 'trigger_flag' undeclared (first use in this function)
+  372 |                 trigger_flag = 0;
+      |                 ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'EXTI15_5_IRQHandler':
+../Core/Src/main.c:397:12: warning: implicit declaration of function 'EXTI_GetITStatus' [-Wimplicit-function-declaration]
+  397 |         if(EXTI_GetITStatus(EXTI_LINE8) != RESET)
+      |            ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:399:17: warning: implicit declaration of function 'EXTI_ClearITPending'; did you mean 'HAL_EXTI_ClearPending'? [-Wimplicit-function-declaration]
+  399 |                 EXTI_ClearITPending(EXTI_LINE8);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 HAL_EXTI_ClearPending
+../Core/Src/main.c:400:17: error: 'trigger_flag' undeclared (first use in this function)
+  400 |                 trigger_flag = 1;
+      |                 ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+09:11:14 Build Failed. 5 errors, 3 warnings. (took 739ms)
+
