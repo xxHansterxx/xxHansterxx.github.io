@@ -70,7 +70,10 @@ CMakeFiles/appMenu_qmlimportscan: .qt/qml_imports/appMenu_build.cmake
 .qt/qml_imports/appMenu_build.cmake: C:/Qt/6.11.0/mingw_64/bin/qmlimportscanner.exe
 .qt/qml_imports/appMenu_build.cmake: .qt/rcc/qmake_Menu.qrc
 .qt/qml_imports/appMenu_build.cmake: .qt/rcc/appMenu_raw_qml_0.qrc
+.qt/qml_imports/appMenu_build.cmake: .qt/rcc/appMenu_raw_res_0.qrc
 .qt/qml_imports/appMenu_build.cmake: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml
+.qt/qml_imports/appMenu_build.cmake: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuLabel.qml
+.qt/qml_imports/appMenu_build.cmake: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuSection.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appMenu"
 	cd /d C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu && call C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmlimportscanner.exe @C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qml_imports/appMenu_build.rsp
 

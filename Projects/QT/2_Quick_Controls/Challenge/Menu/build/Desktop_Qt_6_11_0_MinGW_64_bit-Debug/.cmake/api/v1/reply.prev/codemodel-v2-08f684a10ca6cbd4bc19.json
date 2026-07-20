@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-bf0e42e1200b103e4336.json",
+					"jsonFile" : "directory-.-Debug-2e8e912c65a969bc3a32.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -76,7 +76,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_aotstats-Debug-872ddb7e6792bac4cccb.json",
+					"jsonFile" : "target-all_aotstats-Debug-0a821777de9d0e932af1.json",
 					"name" : "all_aotstats",
 					"projectIndex" : 0
 				},
@@ -111,7 +111,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appMenu::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appMenu-Debug-f45f08e14f9c78aa2497.json",
+					"jsonFile" : "target-appMenu-Debug-f1bdc94468acdaa9f4a6.json",
 					"name" : "appMenu",
 					"projectIndex" : 0
 				},
@@ -125,7 +125,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appMenu_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appMenu_autogen_timestamp_deps-Debug-2d16e968cc466e60ac43.json",
+					"jsonFile" : "target-appMenu_autogen_timestamp_deps-Debug-77e16b995e1976bd2001.json",
 					"name" : "appMenu_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
@@ -202,7 +202,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "module_appMenu_aotstats_target::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module_appMenu_aotstats_target-Debug-5e5e87e07e38d3d56848.json",
+					"jsonFile" : "target-module_appMenu_aotstats_target-Debug-78f2598f20f2f891f4e7.json",
 					"name" : "module_appMenu_aotstats_target",
 					"projectIndex" : 0
 				}

@@ -5,9 +5,12 @@ dfd3fa3f6dc709676b71ce2e67ecd6fb .qt/appMenu_res.txt
 d4f7ae3e642fe5242b27e0b0b88cb4bd .qt/contextPropertyDump.ini
 2978a49769b2467b3627315bc7980892 .qt/qml_imports/appMenu_build.cmake
 132d67308cf6985a11f36a5138fbafa1 .qt/rcc/qrc_appMenu_raw_qml_0.cpp
+4ee78044d72fea8d5590b0c7c836f008 .qt/rcc/qrc_appMenu_raw_res_0.cpp
 604f94c605e5cbd9ac321a4747f415d9 .qt/rcc/qrc_qmake_Menu.cpp
 7d70fb31c5035f56ccc77f1a8ced7fed .rcc/qmlcache/all_aotstats.aotstats
-f3f0e268c7f45a8aa29d56fce77fb957 .rcc/qmlcache/appMenu_Main_qml.cpp
+922d2a4e232422283e0c70298023221c .rcc/qmlcache/appMenu_Main_qml.cpp
+c26d469a9e924d6ebf07b480827ff458 .rcc/qmlcache/appMenu_MenuLabel_qml.cpp
+95404a983807f95bddbdc19d9edca2fc .rcc/qmlcache/appMenu_MenuSection_qml.cpp
 71081a4cd88d396986835ad941229b64 .rcc/qmlcache/appMenu_qmlcache_loader.cpp
 3e96dc4a12ae116ee7f772103bc5f4ee .rcc/qmlcache/module_appMenu.aotstats
 6d62ec5cc6366ad482eb2c6b684493e3 CMakeFiles/all_aotstats

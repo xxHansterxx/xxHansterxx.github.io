@@ -479,6 +479,30 @@ build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.s
 .PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.s
 
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.obj: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.i: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.i
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.s: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.s
+
 build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.obj: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj
 .PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.obj
 
@@ -526,6 +550,54 @@ build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.s: bui
 build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.s
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.obj: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.i: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.i
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.s: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.s
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.obj: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.i: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.i
+
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.s: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appMenu.dir\build.make CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.s
 
 build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.obj: build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj
 .PHONY : build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.obj
@@ -615,12 +687,21 @@ help:
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.obj
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.i
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.s
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.obj
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.i
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.s
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.obj
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.i
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.s
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.obj
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.i
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.s
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.obj
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.i
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.s
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.obj
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.i
+	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.s
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.obj
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.i
 	@echo ... build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.s

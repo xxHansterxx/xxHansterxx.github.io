@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/qt/qml/Menu/">
+    <file alias="fonts/Kalam-Regular.ttf">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/fonts/Kalam-Regular.ttf</file>
+    <file alias="images/dark/cart_add.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/cart_add.svg</file>
+    <file alias="images/dark/cart_remove.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/cart_remove.svg</file>
+    <file alias="images/dark/checkout.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/checkout.svg</file>
+    <file alias="images/dark/mild.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/mild.svg</file>
+    <file alias="images/dark/very_hot.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/very_hot.svg</file>
+    <file alias="images/light/cart_add.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/cart_add.svg</file>
+    <file alias="images/light/cart_remove.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/cart_remove.svg</file>
+    <file alias="images/light/checkout.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/checkout.svg</file>
+    <file alias="images/light/mild.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/mild.svg</file>
+    <file alias="images/light/very_hot.svg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/very_hot.svg</file>
+    <file alias="images/curry.jpg">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/curry.jpg</file>
+  </qresource>
+</RCC>
+

@@ -27,12 +27,12 @@
 			"qt6_add_qml_module",
 			"qt_add_qml_module",
 			"add_dependencies",
-			"_qt_internal_qml_copy_files_to_build_dir",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
 			"cmake_language",
 			"_qt_internal_finalize_executable",
 			"qt6_finalize_target",
+			"_qt_internal_qml_copy_files_to_build_dir",
 			"_qt_internal_write_deferred_qmlls_build_ini_file",
 			"add_compile_definitions",
 			"project",
@@ -107,13 +107,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 36,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 32,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -411,7 +411,48 @@
 				"parent" : 59
 			},
 			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 21,
+				"line" : 1,
+				"parent" : 61
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 62
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 63
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 64
+			},
+			{
 				"command" : 14,
+				"file" : 10,
+				"line" : 4921,
+				"parent" : 65
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 4696,
+				"parent" : 66
+			},
+			{
+				"command" : 19,
 				"file" : 10,
 				"line" : 1045,
 				"parent" : 24
@@ -420,10 +461,10 @@
 				"command" : 13,
 				"file" : 10,
 				"line" : 3223,
-				"parent" : 61
+				"parent" : 68
 			},
 			{
-				"command" : 14,
+				"command" : 19,
 				"file" : 10,
 				"line" : 1051,
 				"parent" : 24
@@ -432,54 +473,13 @@
 				"command" : 13,
 				"file" : 10,
 				"line" : 3223,
-				"parent" : 63
-			},
-			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 19,
-				"file" : 21,
-				"line" : 1,
-				"parent" : 65
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 896,
-				"parent" : 66
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 818,
-				"parent" : 67
-			},
-			{
-				"command" : 16,
-				"file" : 0,
-				"line" : 818,
-				"parent" : 68
-			},
-			{
-				"command" : 15,
-				"file" : 10,
-				"line" : 4921,
-				"parent" : 69
-			},
-			{
-				"command" : 13,
-				"file" : 10,
-				"line" : 4696,
 				"parent" : 70
 			},
 			{
 				"command" : 20,
 				"file" : 22,
 				"line" : 1,
-				"parent" : 65
+				"parent" : 61
 			},
 			{
 				"command" : 13,
@@ -600,6 +600,30 @@
 				"parent" : 88
 			},
 			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3694,
+				"parent" : 88
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3887,
+				"parent" : 88
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3694,
+				"parent" : 88
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3887,
+				"parent" : 88
+			},
+			{
 				"command" : 30,
 				"file" : 10,
 				"line" : 3979,
@@ -609,31 +633,55 @@
 				"command" : 29,
 				"file" : 0,
 				"line" : 419,
-				"parent" : 93
+				"parent" : 97
 			},
 			{
 				"command" : 28,
 				"file" : 0,
 				"line" : 2655,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 25,
 				"file" : 0,
 				"line" : 2195,
-				"parent" : 95
+				"parent" : 99
+			},
+			{
+				"command" : 30,
+				"file" : 10,
+				"line" : 3997,
+				"parent" : 88
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 101
+			},
+			{
+				"command" : 28,
+				"file" : 0,
+				"line" : 2655,
+				"parent" : 102
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2195,
+				"parent" : 103
 			},
 			{
 				"command" : 33,
 				"file" : 0,
 				"line" : 890,
-				"parent" : 66
+				"parent" : 62
 			},
 			{
 				"command" : 25,
 				"file" : 0,
 				"line" : 2320,
-				"parent" : 97
+				"parent" : 105
 			}
 		]
 	},
@@ -777,7 +825,10 @@
 				4,
 				6,
 				7,
-				8
+				9,
+				11,
+				12,
+				13
 			]
 		},
 		{
@@ -924,16 +975,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 62,
+			"backtrace" : 67,
+			"id" : "appMenu_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 69,
 			"id" : "appMenu_copy_qml::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 64,
-			"id" : "appMenu_copy_res::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 71,
-			"id" : "appMenu_qmlimportscan::@6890427a1f51a3e7e1df"
+			"id" : "appMenu_copy_res::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 73,
@@ -1085,16 +1136,20 @@
 				4,
 				6,
 				7,
-				8,
 				9,
 				11,
 				12,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27
+				13,
+				14,
+				16,
+				17,
+				30,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48
 			]
 		},
 		{
@@ -1102,29 +1157,46 @@
 			"sourceIndexes" : 
 			[
 				1,
-				5
+				5,
+				8,
+				10
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				10
+				15,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42
 			]
 		}
 	],
@@ -1183,29 +1255,126 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 93,
+			"path" : "MenuLabel.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 95,
+			"path" : "MenuSection.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Menu.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 106,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Menu/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 106,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_qml_0.qrc",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_res_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "fonts/Kalam-Regular.ttf",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/dark/cart_add.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/dark/cart_remove.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/dark/checkout.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/dark/mild.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/dark/very_hot.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/light/cart_add.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/light/cart_remove.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/light/checkout.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/light/mild.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/light/very_hot.svg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "images/curry.jpg",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
@@ -1246,7 +1415,25 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

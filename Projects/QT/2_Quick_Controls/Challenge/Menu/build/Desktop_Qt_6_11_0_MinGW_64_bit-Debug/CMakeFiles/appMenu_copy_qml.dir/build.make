@@ -69,6 +69,8 @@ CMakeFiles/appMenu_copy_qml: .qt/appMenu_qml.txt
 
 .qt/appMenu_qml.txt: C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/appMenu_qml.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml
+.qt/appMenu_qml.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuLabel.qml
+.qt/appMenu_qml.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuSection.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appMenu qml sources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/appMenu_qml.cmake -P C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

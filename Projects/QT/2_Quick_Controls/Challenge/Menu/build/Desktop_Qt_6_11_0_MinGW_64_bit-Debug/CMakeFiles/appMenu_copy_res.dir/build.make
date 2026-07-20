@@ -68,6 +68,18 @@ include CMakeFiles/appMenu_copy_res.dir/progress.make
 CMakeFiles/appMenu_copy_res: .qt/appMenu_res.txt
 
 .qt/appMenu_res.txt: C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/fonts/Kalam-Regular.ttf
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/cart_add.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/cart_remove.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/checkout.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/mild.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/very_hot.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/cart_add.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/cart_remove.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/checkout.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/mild.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/very_hot.svg
+.qt/appMenu_res.txt: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/curry.jpg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appMenu qml resources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/appMenu_res.cmake -P C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

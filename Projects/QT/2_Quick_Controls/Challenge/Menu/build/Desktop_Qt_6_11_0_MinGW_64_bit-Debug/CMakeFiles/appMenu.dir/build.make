@@ -101,6 +101,7 @@ Menu/appMenu.qmltypes: appmenu_qmltyperegistrations.cpp
 .rcc/qmlcache/appMenu_qmlcache_loader.cpp: .rcc/qmlcache/appMenu_qml_loader_file_list.rsp
 .rcc/qmlcache/appMenu_qmlcache_loader.cpp: .qt/rcc/qmake_Menu.qrc
 .rcc/qmlcache/appMenu_qmlcache_loader.cpp: .qt/rcc/appMenu_raw_qml_0.qrc
+.rcc/qmlcache/appMenu_qmlcache_loader.cpp: .qt/rcc/appMenu_raw_res_0.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appMenu_qmlcache_loader.cpp"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmlcachegen.exe --resource-name qmlcache_appMenu -o C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp @C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qml_loader_file_list.rsp
 
@@ -108,41 +109,89 @@ Menu/appMenu.qmltypes: appmenu_qmltyperegistrations.cpp
 .rcc/qmlcache/appMenu_Main_qml.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml
 .rcc/qmlcache/appMenu_Main_qml.cpp: .qt/rcc/qmake_Menu.qrc
 .rcc/qmlcache/appMenu_Main_qml.cpp: .qt/rcc/appMenu_raw_qml_0.qrc
+.rcc/qmlcache/appMenu_Main_qml.cpp: .qt/rcc/appMenu_raw_res_0.qrc
 .rcc/qmlcache/appMenu_Main_qml.cpp: Menu/appMenu.qmltypes
 .rcc/qmlcache/appMenu_Main_qml.cpp: Menu/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appMenu_Main_qml.cpp, .rcc/qmlcache/appMenu_Main_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Menu/Main.qml -I C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug -I C:/Qt/6.11.0/mingw_64/qml -i C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Menu/qmldir --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Menu.qrc --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_qml_0.qrc --dump-aot-stats --module-id=Menu(appMenu) -o C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Menu/Main.qml -I C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug -I C:/Qt/6.11.0/mingw_64/qml -i C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Menu/qmldir --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Menu.qrc --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_qml_0.qrc --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_res_0.qrc --dump-aot-stats --module-id=Menu(appMenu) -o C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml
 
 .rcc/qmlcache/appMenu_Main_qml.cpp.aotstats: .rcc/qmlcache/appMenu_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appMenu_Main_qml.cpp.aotstats
 
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp: C:/Qt/6.11.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuLabel.qml
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp: .qt/rcc/qmake_Menu.qrc
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp: .qt/rcc/appMenu_raw_qml_0.qrc
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp: .qt/rcc/appMenu_raw_res_0.qrc
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp: Menu/appMenu.qmltypes
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp: Menu/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appMenu_MenuLabel_qml.cpp, .rcc/qmlcache/appMenu_MenuLabel_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Menu/MenuLabel.qml -I C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug -I C:/Qt/6.11.0/mingw_64/qml -i C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Menu/qmldir --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Menu.qrc --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_qml_0.qrc --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_res_0.qrc --dump-aot-stats --module-id=Menu(appMenu) -o C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuLabel.qml
+
+.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.aotstats: .rcc/qmlcache/appMenu_MenuLabel_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appMenu_MenuLabel_qml.cpp.aotstats
+
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp: C:/Qt/6.11.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuSection.qml
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp: .qt/rcc/qmake_Menu.qrc
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp: .qt/rcc/appMenu_raw_qml_0.qrc
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp: .qt/rcc/appMenu_raw_res_0.qrc
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp: Menu/appMenu.qmltypes
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp: Menu/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appMenu_MenuSection_qml.cpp, .rcc/qmlcache/appMenu_MenuSection_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Menu/MenuSection.qml -I C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug -I C:/Qt/6.11.0/mingw_64/qml -i C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Menu/qmldir --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Menu.qrc --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_qml_0.qrc --resource C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_res_0.qrc --dump-aot-stats --module-id=Menu(appMenu) -o C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuSection.qml
+
+.rcc/qmlcache/appMenu_MenuSection_qml.cpp.aotstats: .rcc/qmlcache/appMenu_MenuSection_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appMenu_MenuSection_qml.cpp.aotstats
+
 .qt/rcc/qrc_appMenu_raw_qml_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml
+.qt/rcc/qrc_appMenu_raw_qml_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuLabel.qml
+.qt/rcc/qrc_appMenu_raw_qml_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuSection.qml
 .qt/rcc/qrc_appMenu_raw_qml_0.cpp: .qt/rcc/appMenu_raw_qml_0.qrc
 .qt/rcc/qrc_appMenu_raw_qml_0.cpp: C:/Qt/6.11.0/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appMenu_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running rcc for resource appMenu_raw_qml_0"
 	C:\Qt\6.11.0\mingw_64\bin\rcc.exe --output C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp --name appMenu_raw_qml_0 C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_qml_0.qrc --no-zstd
+
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/fonts/Kalam-Regular.ttf
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/cart_add.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/cart_remove.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/checkout.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/mild.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/dark/very_hot.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/cart_add.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/cart_remove.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/checkout.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/mild.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/light/very_hot.svg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/images/curry.jpg
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: .qt/rcc/appMenu_raw_res_0.qrc
+.qt/rcc/qrc_appMenu_raw_res_0.cpp: C:/Qt/6.11.0/mingw_64/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running rcc for resource appMenu_raw_res_0"
+	C:\Qt\6.11.0\mingw_64\bin\rcc.exe --output C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp --name appMenu_raw_res_0 C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_res_0.qrc --no-zstd
 
 appMenu_autogen/timestamp: C:/Qt/6.11.0/mingw_64/bin/moc.exe
 appMenu_autogen/timestamp: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC and UIC for target appMenu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Automatic MOC and UIC for target appMenu"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/appMenu_autogen.dir/AutogenInfo.json Debug
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appMenu_autogen/timestamp
 
 meta_types/appMenu_json_file_list.txt: C:/Qt/6.11.0/mingw_64/bin/cmake_automoc_parser.exe
 meta_types/appMenu_json_file_list.txt: appMenu_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running AUTOMOC file extraction for target appMenu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running AUTOMOC file extraction for target appMenu"
 	C:\Qt\6.11.0\mingw_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/appMenu_autogen.dir/ParseCache.txt --cmake-autogen-info-file C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/appMenu_autogen.dir/AutogenInfo.json --output-file-path C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/meta_types/appMenu_json_file_list.txt --timestamp-file-path C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/meta_types/appMenu_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appMenu_autogen/include
 
 meta_types/qt6appmenu_metatypes.json: meta_types/qt6appmenu_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating meta_types/qt6appmenu_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating meta_types/qt6appmenu_metatypes.json"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E true
 
 CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj: CMakeFiles/appMenu.dir/flags.make
 CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
 CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj: appMenu_autogen/mocs_compilation.cpp
 CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\appMenu.dir\appMenu_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\appMenu.dir\appMenu_autogen\mocs_compilation.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\appMenu_autogen\mocs_compilation.cpp
 
 CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.i: cmake_force
@@ -157,7 +206,7 @@ CMakeFiles/appMenu.dir/main.cpp.obj: CMakeFiles/appMenu.dir/flags.make
 CMakeFiles/appMenu.dir/main.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
 CMakeFiles/appMenu.dir/main.cpp.obj: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/main.cpp
 CMakeFiles/appMenu.dir/main.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appMenu.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appMenu.dir/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/main.cpp.obj -MF CMakeFiles\appMenu.dir\main.cpp.obj.d -o CMakeFiles\appMenu.dir\main.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\main.cpp
 
 CMakeFiles/appMenu.dir/main.cpp.i: cmake_force
@@ -172,7 +221,7 @@ CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj: CMakeFiles/appMenu.
 CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
 CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj: appmenu_qmltyperegistrations.cpp
 CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj -MF CMakeFiles\appMenu.dir\appmenu_qmltyperegistrations.cpp.obj.d -o CMakeFiles\appMenu.dir\appmenu_qmltyperegistrations.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\appmenu_qmltyperegistrations.cpp
 
 CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.i: cmake_force
@@ -187,7 +236,7 @@ CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qm
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj: .qt/rcc/qrc_qmake_Menu.cpp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj -MF CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Menu.cpp.obj.d -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Menu.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_Menu.cpp
 
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.i: cmake_force
@@ -202,7 +251,7 @@ CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj: .rcc/qmlcache/appMenu_qmlcache_loader.cpp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj -MF CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_qmlcache_loader.cpp.obj.d -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_qmlcache_loader.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_qmlcache_loader.cpp
 
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.i: cmake_force
@@ -217,7 +266,7 @@ CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj: .rcc/qmlcache/appMenu_Main_qml.cpp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj -MF CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_Main_qml.cpp.obj.d -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_Main_qml.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_Main_qml.cpp
 
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.i: cmake_force
@@ -228,11 +277,41 @@ CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_Main_qml.cpp -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_Main_qml.cpp.s
 
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj: CMakeFiles/appMenu.dir/flags.make
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj: .rcc/qmlcache/appMenu_MenuLabel_qml.cpp
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj -MF CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuLabel_qml.cpp.obj.d -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuLabel_qml.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuLabel_qml.cpp
+
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuLabel_qml.cpp > CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuLabel_qml.cpp.i
+
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuLabel_qml.cpp -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuLabel_qml.cpp.s
+
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj: CMakeFiles/appMenu.dir/flags.make
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj: .rcc/qmlcache/appMenu_MenuSection_qml.cpp
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj -MF CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuSection_qml.cpp.obj.d -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuSection_qml.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuSection_qml.cpp
+
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuSection_qml.cpp > CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuSection_qml.cpp.i
+
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuSection_qml.cpp -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appMenu_MenuSection_qml.cpp.s
+
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj: CMakeFiles/appMenu.dir/flags.make
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj: .qt/rcc/qrc_appMenu_raw_qml_0.cpp
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj -MF CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_qml_0.cpp.obj.d -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_qml_0.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_qml_0.cpp
 
 CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.i: cmake_force
@@ -243,6 +322,21 @@ CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_ap
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_qml_0.cpp -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_qml_0.cpp.s
 
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj: CMakeFiles/appMenu.dir/flags.make
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj: CMakeFiles/appMenu.dir/includes_CXX.rsp
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj: .qt/rcc/qrc_appMenu_raw_res_0.cpp
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj: CMakeFiles/appMenu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj -MF CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_res_0.cpp.obj.d -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_res_0.cpp.obj -c C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_res_0.cpp
+
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_res_0.cpp > CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_res_0.cpp.i
+
+CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_res_0.cpp -o CMakeFiles\appMenu.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appMenu_raw_res_0.cpp.s
+
 # Object files for target appMenu
 appMenu_OBJECTS = \
 "CMakeFiles/appMenu.dir/appMenu_autogen/mocs_compilation.cpp.obj" \
@@ -251,7 +345,10 @@ appMenu_OBJECTS = \
 "CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj" \
 "CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj" \
 "CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj" \
-"CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj"
+"CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj" \
+"CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj" \
+"CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj" \
+"CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj"
 
 # External object files for target appMenu
 appMenu_EXTERNAL_OBJECTS =
@@ -262,7 +359,10 @@ appMenu.exe: CMakeFiles/appMenu.dir/appmenu_qmltyperegistrations.cpp.obj
 appMenu.exe: CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Menu.cpp.obj
 appMenu.exe: CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_qmlcache_loader.cpp.obj
 appMenu.exe: CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_Main_qml.cpp.obj
+appMenu.exe: CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuLabel_qml.cpp.obj
+appMenu.exe: CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMenu_MenuSection_qml.cpp.obj
 appMenu.exe: CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_qml_0.cpp.obj
+appMenu.exe: CMakeFiles/appMenu.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMenu_raw_res_0.cpp.obj
 appMenu.exe: CMakeFiles/appMenu.dir/build.make
 appMenu.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Quick.a
 appMenu.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6OpenGL.a
@@ -274,7 +374,7 @@ appMenu.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6EntryPoint.a
 appMenu.exe: CMakeFiles/appMenu.dir/linkLibs.rsp
 appMenu.exe: CMakeFiles/appMenu.dir/objects1.rsp
 appMenu.exe: CMakeFiles/appMenu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable appMenu.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable appMenu.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appMenu.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -286,9 +386,14 @@ CMakeFiles/appMenu.dir/clean:
 .PHONY : CMakeFiles/appMenu.dir/clean
 
 CMakeFiles/appMenu.dir/depend: .qt/rcc/qrc_appMenu_raw_qml_0.cpp
+CMakeFiles/appMenu.dir/depend: .qt/rcc/qrc_appMenu_raw_res_0.cpp
 CMakeFiles/appMenu.dir/depend: .qt/rcc/qrc_qmake_Menu.cpp
 CMakeFiles/appMenu.dir/depend: .rcc/qmlcache/appMenu_Main_qml.cpp
 CMakeFiles/appMenu.dir/depend: .rcc/qmlcache/appMenu_Main_qml.cpp.aotstats
+CMakeFiles/appMenu.dir/depend: .rcc/qmlcache/appMenu_MenuLabel_qml.cpp
+CMakeFiles/appMenu.dir/depend: .rcc/qmlcache/appMenu_MenuLabel_qml.cpp.aotstats
+CMakeFiles/appMenu.dir/depend: .rcc/qmlcache/appMenu_MenuSection_qml.cpp
+CMakeFiles/appMenu.dir/depend: .rcc/qmlcache/appMenu_MenuSection_qml.cpp.aotstats
 CMakeFiles/appMenu.dir/depend: .rcc/qmlcache/appMenu_qmlcache_loader.cpp
 CMakeFiles/appMenu.dir/depend: Menu/appMenu.qmltypes
 CMakeFiles/appMenu.dir/depend: appMenu_autogen/timestamp

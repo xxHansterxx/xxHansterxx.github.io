@@ -67,6 +67,8 @@ include CMakeFiles/appMenu_qmllint_module.dir/progress.make
 
 CMakeFiles/appMenu_qmllint_module: C:/Qt/6.11.0/mingw_64/bin/qmllint.exe
 CMakeFiles/appMenu_qmllint_module: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml
+CMakeFiles/appMenu_qmllint_module: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuLabel.qml
+CMakeFiles/appMenu_qmllint_module: C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuSection.qml
 CMakeFiles/appMenu_qmllint_module: .rcc/qmllint/appMenu_module.rsp
 	cd /d C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu && call C:\Coding\StudyPath.github.io\Projects\QT\2_Quick_Controls\Challenge\Menu\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmllint.exe @C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmllint/appMenu_module.rsp
 
