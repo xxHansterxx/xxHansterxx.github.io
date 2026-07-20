@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appRemote_Control_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_Remote_Control.cpp"
+  ".rcc/qmlcache/appRemote_Control_Main_qml.cpp"
+  ".rcc/qmlcache/appRemote_Control_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appRemote_Control_qmlcache_loader.cpp"
+  "CMakeFiles/appRemote_Control_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appRemote_Control_autogen.dir/ParseCache.txt"
+  "appRemote_Control_autogen"
+  "CMakeFiles/appRemote_Control.dir/19cad87cd0d89bcf4b8f44efda7ca9e6/.rcc/qmlcache/appRemote_Control_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appRemote_Control.dir/19cad87cd0d89bcf4b8f44efda7ca9e6/.rcc/qmlcache/appRemote_Control_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appRemote_Control.dir/appRemote_Control_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appRemote_Control.dir/appRemote_Control_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appRemote_Control.dir/appremote_control_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appRemote_Control.dir/appremote_control_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appRemote_Control.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appRemote_Control_raw_qml_0.cpp.obj"
+  "CMakeFiles/appRemote_Control.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appRemote_Control_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appRemote_Control.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Remote_Control.cpp.obj"
+  "CMakeFiles/appRemote_Control.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Remote_Control.cpp.obj.d"
+  "CMakeFiles/appRemote_Control.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appRemote_Control_Main_qml.cpp.obj"
+  "CMakeFiles/appRemote_Control.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appRemote_Control_Main_qml.cpp.obj.d"
+  "CMakeFiles/appRemote_Control.dir/main.cpp.obj"
+  "CMakeFiles/appRemote_Control.dir/main.cpp.obj.d"
+  "Remote_Control/appRemote_Control.qmltypes"
+  "appRemote_Control.exe"
+  "appRemote_Control.exe.manifest"
+  "appRemote_Control.pdb"
+  "appRemote_Control_autogen/mocs_compilation.cpp"
+  "appRemote_Control_autogen/timestamp"
+  "appremote_control_qmltyperegistrations.cpp"
+  "libappRemote_Control.dll.a"
+  "meta_types/appRemote_Control_json_file_list.txt"
+  "meta_types/appRemote_Control_json_file_list.txt.timestamp"
+  "meta_types/qt6appremote_control_metatypes.json"
+  "meta_types/qt6appremote_control_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appRemote_Control.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Remote_Control/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick_Challenge/Remote_Control/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/qt/qml/Home_Controls/">
+    <file alias="assets/BrushedMetal.jpg">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/assets/BrushedMetal.jpg</file>
+    <file alias="assets/cool.svg">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/assets/cool.svg</file>
+    <file alias="assets/fan_fill.svg">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/assets/fan_fill.svg</file>
+    <file alias="assets/fan_off.svg">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/assets/fan_off.svg</file>
+    <file alias="assets/fan_outline.svg">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/assets/fan_outline.svg</file>
+    <file alias="assets/heat.svg">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/assets/heat.svg</file>
+  </qresource>
+</RCC>
+

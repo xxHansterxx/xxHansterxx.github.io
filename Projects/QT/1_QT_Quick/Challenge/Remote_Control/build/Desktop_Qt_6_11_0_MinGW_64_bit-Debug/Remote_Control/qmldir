@@ -1,0 +1,6 @@
+module Remote_Control
+typeinfo appRemote_Control.qmltypes
+prefer :/qt/qml/Remote_Control/
+Main 254.0 Main.qml
+depends QtQuick
+
