@@ -1,0 +1,24 @@
+// Copyright (C) 2026 Qt Group.
+// SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
+
+Flickable {
+    id: flickable
+
+    // auto flick direction based on contentItem size
+
+    contentHeight: gridLayout.height
+    contentWidth: gridLayout.width
+
+    clip: true
+
+    GridLayout {
+        id: gridLayout
+
+        columns: 2
+
+        Repeater {
+            model: 10
+            delegate: thumbnailDelegate
+        }
+    }
+}
