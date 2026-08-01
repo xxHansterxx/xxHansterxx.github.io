@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/Menu/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/Main.qml</file>
+    <file alias="MenuLabel.qml">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuLabel.qml</file>
+    <file alias="MenuSection.qml">C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/MenuSection.qml</file>
+  </qresource>
+</RCC>
+

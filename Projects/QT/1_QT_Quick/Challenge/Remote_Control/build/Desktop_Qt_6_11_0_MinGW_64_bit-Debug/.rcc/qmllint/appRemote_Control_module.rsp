@@ -1,0 +1,14 @@
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick_Challenge/Remote_Control/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick_Challenge/Remote_Control/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Remote_Control
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick_Challenge/Remote_Control/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.11.0/mingw_64/qml
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick_Challenge/Remote_Control/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Remote_Control.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_QT_Quick_Challenge/Remote_Control/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appRemote_Control_raw_qml_0.qrc
+--module
+Remote_Control

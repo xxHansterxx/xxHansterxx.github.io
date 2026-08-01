@@ -1,0 +1,8 @@
+module Home_Controls
+typeinfo appHome_Controls.qmltypes
+prefer :/qt/qml/Home_Controls/
+Main 254.0 Main.qml
+ZoneControls 254.0 ZoneControls.qml
+ClimateControls 254.0 ClimateControls.qml
+depends QtQuick
+

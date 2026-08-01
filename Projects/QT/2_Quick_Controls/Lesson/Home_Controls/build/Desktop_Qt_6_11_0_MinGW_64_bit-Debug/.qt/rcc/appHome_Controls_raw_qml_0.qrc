@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/Home_Controls/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/Main.qml</file>
+    <file alias="ZoneControls.qml">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/ZoneControls.qml</file>
+    <file alias="ClimateControls.qml">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/ClimateControls.qml</file>
+  </qresource>
+</RCC>
+

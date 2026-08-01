@@ -1,0 +1,9 @@
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Menu.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_qml_0.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/2_Quick_Controls/Challenge/Menu/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMenu_raw_res_0.qrc
+/qt/qml/Menu/Main.qml
+/qt/qml/Menu/MenuLabel.qml
+/qt/qml/Menu/MenuSection.qml

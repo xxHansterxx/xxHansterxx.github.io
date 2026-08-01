@@ -1,0 +1,15 @@
+-rootPath
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls
+-cmake-output
+-output-file
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qml_imports/appHome_Controls_build.cmake
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Home_Controls
+-importPath
+C:/Qt/6.11.0/mingw_64/qml
+-qrcFiles
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Home_Controls.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appHome_Controls_raw_qml_0.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appHome_Controls_raw_res_0.qrc

@@ -1,0 +1,8 @@
+module Menu
+typeinfo appMenu.qmltypes
+prefer :/qt/qml/Menu/
+Main 254.0 Main.qml
+MenuLabel 254.0 MenuLabel.qml
+MenuSection 254.0 MenuSection.qml
+depends QtQuick
+

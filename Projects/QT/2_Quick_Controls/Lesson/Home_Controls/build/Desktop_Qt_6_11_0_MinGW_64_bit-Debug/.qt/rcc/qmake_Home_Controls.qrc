@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Home_Controls">
+    <file alias="qmldir">C:/Coding/StudyPath.github.io/Projects/QT/Intro_Quick_Controls/Home_Controls/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Home_Controls/qmldir</file>
+  </qresource>
+</RCC>
+
