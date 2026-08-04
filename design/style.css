@@ -12,9 +12,9 @@
   height: auto;
   width: auto;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 
 }
@@ -60,6 +60,16 @@
   margin-bottom: 20px;
 }
 /*HTML page content styling*/
+.course_link
+{
+  margin-top: 0px;
+  height: auto;
+  width: auto;
+
+  color: black;
+  text-decoration: underline;
+
+}
 .checklist
 {
     margin-left: 200px;
