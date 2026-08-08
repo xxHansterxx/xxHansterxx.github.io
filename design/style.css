@@ -1,547 +1,681 @@
-/*References*/
+```css
+/* =========================================================
+   REFERENCES
+   ========================================================= */
+
 .reference
 {
-  text-align: center;
-  
+text-align: center;
+
 }
+
 .reference_buttons
 {
-  text-align: center;
-  margin: 5px;
-  margin-top: 0px;
-  height: auto;
-  width: auto;
+text-align: center;
+margin: 5px;
+margin-top: 0px;
+height: auto;
+width: auto;
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+display: block;
+margin-left: auto;
+margin-right: auto;
 
 }
-/*Embedded page content styling*/
+
+
+/* =========================================================
+   EMBEDDED PAGE CONTENT STYLING
+   ========================================================= */
+
 .pdf
 {
-  width: 80%;
-  height: 1000px;
+width: 80%;
+height: 1000px;
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
 }
 
 .EmbeddedMindmap
 {
-  width: 1160px;
-  height: 805px;
+width: 1160px;
+height: 805px;
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
 }
 
 .EmbeddedFlowchart
 {
-  width: 648px;
-  height: 813px;
+width: 648px;
+height: 813px;
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
 }
 
 .TestPlan
 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
 }
-/*HTML page content styling*/
+
+
+/* =========================================================
+   HTML PAGE CONTENT STYLING
+   ========================================================= */
+
 .course_link
 {
-  margin-top: 0px;
-  height: auto;
-  width: auto;
+margin-top: 0px;
+height: auto;
+width: auto;
 
-  color: black;
-  text-decoration: underline;
+color: black;
+text-decoration: underline;
 
 }
+
 .checklist
 {
-    margin-left: 200px;
-    margin-top: 0px;
-    font-size: 16px;
-    text-align: left;
+margin-left: 200px;
+margin-top: 0px;
+font-size: 16px;
+text-align: left;
 
-    height: 25px;
-    width: 25px;
-    background-color: rgb(238, 238, 238);
+height: 25px;
+width: 25px;
+background-color: rgb(238, 238, 238);
+
 }
+
 .html_fig
 {
-    width: 1219px;
-    margin: auto;
-    margin-bottom: 50px;
+width: 1219px;
+margin: auto;
+margin-bottom: 50px;
 
-    text-align: center;
+text-align: center;
+
 }
+
 .html_image
 {
-    width: 1219px;
-    height: 600px;
+width: 1219px;
+height: 600px;
 
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: black;
+border-style: solid;
+border-radius: 5px;
+border-width: 1px;
+border-color: black;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+
 }
+
 .pirate
 {
-    width: 1219px;
-    height: 400px;
+width: 1219px;
+height: 400px;
 
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: black;
+border-style: solid;
+border-radius: 5px;
+border-width: 1px;
+border-color: black;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+
 }
+
 .mindmap
 {
-  width: 1313;
-  height: 588;
+width: 1313;
+height: 588;
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
 }
-/*Progress bar (see reference)*/
+
+
+/* =========================================================
+   PROGRESS BAR
+   ========================================================= */
+
+/* Progress bar (see reference) */
+
 *,
 *:after,
-*:before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial;
+*:before
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial;
 }
-/* Form Progress */
-.progress {
 
-  margin: 20px auto;
-  text-align: center;
-  padding-bottom: 80px;
+
+/* Form Progress */
+
+.progress
+{
+margin: 20px auto;
+text-align: center;
+padding-bottom: 80px;
 }
+
 .progress .circle,
-.progress .bar {
-  display: inline-block;
-  background: #fff;
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  border: 1px solid #d5d5da;
-  vertical-align:top;
+.progress .bar
+{
+display: inline-block;
+background: #fff;
+width: 40px;
+height: 40px;
+border-radius: 40px;
+border: 1px solid #d5d5da;
+vertical-align: top;
 }
-.progress .bar {
-  position: relative;
-  width: 80px;
-  height: 6px;
-  margin: 0 -5px 17px -5px;
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-  top:16px;
-  vertical-align:top
+
+.progress .bar
+{
+position: relative;
+width: 80px;
+height: 6px;
+margin: 0 -5px 17px -5px;
+border-left: none;
+border-right: none;
+border-radius: 0;
+top: 16px;
+vertical-align: top
 }
-.progress .circle .label {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
-  border-radius: 32px;
-  margin-top: 3px;
-  color: #b5b5ba;
-  font-size: 17px;
+
+.progress .circle .label
+{
+display: inline-block;
+width: 32px;
+height: 32px;
+line-height: 32px;
+border-radius: 32px;
+margin-top: 3px;
+color: #b5b5ba;
+font-size: 17px;
 }
-.progress .circle .title {
-  color: #b5b5ba;
-  font-size: 13px;
-  line-height: 18px;
-  margin-left: -30px;
-  display: block;
-  width: 100px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+
+.progress .circle .title
+{
+color: #b5b5ba;
+font-size: 13px;
+line-height: 18px;
+margin-left: -30px;
+display: block;
+width: 100px;
+margin-top: 5px;
+margin-bottom: 5px;
 }
+
+
 /* Done / Active */
 
 .progress .bar.done,
-.progress .circle.done {
-  background: #eee;
-}
-.progress .bar.active {
-  background: linear-gradient(to right, #EEE 40%, #FFF 60%);
-}
-.progress .circle.done .label {
-  color: #FFF;
-  background: rgb(250, 118, 118);
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
-}
-.progress .circle.done .title {
-  color: #444;
-}
-.progress .circle.active .label {
-  color: #FFF;
-  background: rgb(157, 174, 204);
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
-}
-.progress .circle.active .title {
-  color: rgb(157, 174, 204);
+.progress .circle.done
+{
+background: #eee;
 }
 
-/*certificates*/
+.progress .bar.active
+{
+background: linear-gradient(to right, #EEE 40%, #FFF 60%);
+}
+
+.progress .circle.done .label
+{
+color: #FFF;
+background: rgb(250, 118, 118);
+box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.progress .circle.done .title
+{
+color: #444;
+}
+
+.progress .circle.active .label
+{
+color: #FFF;
+background: rgb(157, 174, 204);
+box-shadow: inset 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.progress .circle.active .title
+{
+color: rgb(157, 174, 204);
+}
+
+
+/* =========================================================
+   CERTIFICATES
+   ========================================================= */
+
 .codecademy_certificate
 {
-    margin-bottom: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+margin-bottom: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 
 }
 
 .grades
 {
-    margin-bottom: 0px;
-    width: 1188px;
-  
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+margin-bottom: 0px;
+width: 1188px;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .module_completion
 {
-    width:225px;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: black;
+width: 225px;
+border-style: solid;
+border-radius: 5px;
+border-width: 1px;
+border-color: black;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+
 }
+
 .PLC_Completion
 {
-    width:890px;
-    height: auto;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: black;
+width: 890px;
+height: auto;
+border-style: solid;
+border-radius: 5px;
+border-width: 1px;
+border-color: black;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+
 }
+
 .QT_image
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-}
-/* Home page content styling */
-.profile_pic
-{
-    width: 175px;
-    height: 209px;
-    float: right;
-    margin-left: 50px;
-    margin-right: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
 }
 
-/* Home page title styling */
+
+/* =========================================================
+   HOME PAGE CONTENT STYLING
+   ========================================================= */
+
+.profile_pic
+{
+width: 175px;
+height: 209px;
+float: right;
+margin-left: 50px;
+margin-right: 10px;
+}
+
+
+/* =========================================================
+   HOME PAGE TITLE STYLING
+   ========================================================= */
+
 .subtitle
 {
-    text-align: left;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+text-align: left;
+margin-left: 100px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 .Checklist_subtitle
 {
-    text-align: left;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-/*temporay making true*/
-.container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  font-size: 15px;
-  margin-left: 150px;
-  cursor: pointer;
-  position: relative;
-}
-
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.Home_checklist  {
-  position: absolute;
-  height: 25px;
-  width: 25px;
-
-  background-color: rgb(157, 174, 204);
-  margin-left: -30px;
-}
-
-.container:hover input ~ .Home_checklist {
-  background-color: #ccc;
-}
-
-.container input:checked ~ .Home_checklist  {
-  background-color:rgb(250, 118, 118);
-}
-
-.Home_checklist::after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.container input:checked ~ .Home_checklist::after {
-  display: block;
-}
-
-.container .Home_checklist::after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+text-align: left;
+margin-left: 100px;
+margin-bottom: 10px;
+margin-top: 20px;
 }
 
 
-/* general styling */
+/* =========================================================
+   HOME PAGE CHECKLIST
+   ========================================================= */
+
+/* Temporay making true */
+
+.container
+{
+display: flex;
+align-items: center;
+gap: 10px;
+
+font-size: 15px;
+margin-left: 150px;
+cursor: pointer;
+position: relative;
+}
+
+.container input
+{
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+
+.Home_checklist
+{
+position: absolute;
+height: 25px;
+width: 25px;
+
+background-color: rgb(157, 174, 204);
+margin-left: -30px;
+}
+
+.container:hover input ~ .Home_checklist
+{
+background-color: #ccc;
+}
+
+.container input:checked ~ .Home_checklist
+{
+background-color: rgb(250, 118, 118);
+}
+
+.Home_checklist::after
+{
+content: "";
+position: absolute;
+display: none;
+}
+
+.container input:checked ~ .Home_checklist::after
+{
+display: block;
+}
+
+.container .Home_checklist::after
+{
+left: 9px;
+top: 5px;
+width: 5px;
+height: 10px;
+border: solid white;
+border-width: 0 3px 3px 0;
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+
+/* =========================================================
+   GENERAL STYLING
+   ========================================================= */
+
 .research_links
 {
-      text-align: left;
-      margin-left: 350px;
-      margin-bottom: 20px;
-      margin-top: 20px;
+text-align: left;
+margin-left: 350px;
+margin-bottom: 20px;
+margin-top: 20px;
 
 }
+
 .milestone_subheading
 {
-    text-align: left;
-    margin-left: 300px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+text-align: left;
+margin-left: 300px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
+
 .milestone_subheading2
 {
-    text-align: left;
-    margin-left: 350px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+text-align: left;
+margin-left: 350px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 .date
 {
-    text-align: left;
-    margin-left: 200px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+text-align: left;
+margin-left: 200px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 .milestone_text
 {
-    margin: 10px;
-    margin-top: 0px;
-    font-size: 16px;
-    text-align: center;
+margin: 10px;
+margin-top: 0px;
+font-size: 16px;
+text-align: center;
 }
 
 .page_title
 {
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+text-align: left;
+margin-left: 10px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
+
 .general_text
 {
-    margin: 10px;
-    margin-top: 0px;
-    font-size: 16px;
-    text-align: left;
+margin: 10px;
+margin-top: 0px;
+font-size: 16px;
+text-align: left;
 }
 
-.solid {
-    margin-left: 300px;
-    margin-right: 300px;
-    color: rgb(255, 183, 183);
+.solid
+{
+margin-left: 300px;
+margin-right: 300px;
+color: rgb(255, 183, 183);
 
 }
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
 
 .header_buttons
 {
-    background: rgb(255, 183, 183);
-    color: rgb(0, 0, 0);
+background: rgb(255, 183, 183);
+color: rgb(0, 0, 0);
 
-    width: 250px; 
-    height: 60px;
-    font-size: 20px;
-    margin: 5px 3px;
-    border-radius: 4px;
-    text-decoration: none;
+width: 250px;
+height: 60px;
+font-size: 20px;
+margin: 5px 3px;
+border-radius: 4px;
+text-decoration: none;
 
-    text-align: center;
-    vertical-align:middle;
+text-align: center;
+vertical-align: middle;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
+display: flex;
+flex-direction: column;
+justify-content: center;
+
 }
+
 .linkbutton
 {
-    background: rgb(255, 183, 183);
-    color: rgb(0, 0, 0);
+background: rgb(255, 183, 183);
+color: rgb(0, 0, 0);
 
-    width: 250px; 
-    height: 60px;
-    font-size: 20px;
-    margin: 5px 3px;
-    border-radius: 4px;
-    border-color: #444;
-    text-decoration: none;
+width: 250px;
+height: 60px;
+font-size: 20px;
+margin: 5px 3px;
+border-radius: 4px;
+border-color: #444;
+text-decoration: none;
 
-    text-align: center;
-    vertical-align:middle;
+text-align: center;
+vertical-align: middle;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
- 
-    margin-left: auto;
-    margin-right: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+margin-left: auto;
+margin-right: auto;
 
 }
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
 
 .title
 {
-    font-family: Arial;
-    font-size: 75px;
-    color: rgb(250, 118, 118);
-    text-align: center;
-    margin-top: 50px;
+font-family: Arial;
+font-size: 75px;
+color: rgb(250, 118, 118);
+text-align: center;
+margin-top: 50px;
 
 }
 
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
 .navigation_bar
 {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 5px;
+display: flex;
+justify-content: center;
+margin-top: 25px;
+margin-bottom: 5px;
 }
 
 .LinkIcon
 {
-    height: 100px;
-    width: 100px;
-    margin: 50px;
+height: 100px;
+width: 100px;
+margin: 50px;
 }
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
 header
 {
-    font-family: Arial;
-    font-size: 20px;
+font-family: Arial;
+font-size: 20px;
 
-    background-image: url('background.jpg');
-    background-size: cover;
+background-image: url('background.jpg');
+background-size: cover;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
 }
+
+
+/* =========================================================
+   BODY
+   ========================================================= */
 
 body
 {
-    margin: 0;
+margin: 0;
 
-    background-image: url('cloud_background.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+background-image: url('cloud_background.png');
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+
 }
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
 
 footer
 {
-    min-height: 150px;
-    background-image: url('background.jpg');
-    background-size: auto;
+min-height: 150px;
+background-image: url('background.jpg');
+background-size: auto;
 }
 
-/*Opening Page Styling*/
+
+/* =========================================================
+   OPENING PAGE STYLING
+   ========================================================= */
+
 .Opening_Title
 {
-    font-family: Arial;
-    font-size: 75px;
-    color: rgb(250, 118, 118);
-    text-decoration: none;
-    margin: 0;
-    margin-top: 0px;
+font-family: Arial;
+font-size: 75px;
+color: rgb(250, 118, 118);
+text-decoration: none;
+margin: 0;
+margin-top: 0px;
 
-    text-align: center;
-    
+text-align: center;
+
 }
 
 .Go_To_Home
 {
-    height: 200px;         
-    width: 100%;
+height: 200px;
+width: 100%;
 
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: cover;
+background-image: url('background.jpg');
+background-size: cover;
+background-position: cover;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+
 }
+
