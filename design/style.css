@@ -30,6 +30,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 6%;
+margin-top:6%;
 
 
 }
@@ -187,7 +188,6 @@ height: clamp(30px, 4vw, 40px);
 border-radius: 50%;
 border: 1px solid #d5d5da;
 vertical-align: top;
-
 
 }
 
@@ -687,6 +687,11 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 {
 margin-left: auto;
 margin-right: auto;
+}
+
+
+a {
+    color: #303746;
 }
 
 /* =========================================================
