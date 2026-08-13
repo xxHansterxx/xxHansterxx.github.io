@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Gallery">
+    <file alias="qmldir">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Gallery/qmldir</file>
+  </qresource>
+</RCC>
+

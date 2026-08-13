@@ -1,0 +1,6 @@
+module Music_Bar
+typeinfo appMusic_Bar.qmltypes
+prefer :/qt/qml/Music_Bar/
+Main 254.0 Main.qml
+depends QtQuick
+

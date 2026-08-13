@@ -1,0 +1,6 @@
+module Chat_Application
+typeinfo appChat_Application.qmltypes
+prefer :/qt/qml/Chat_Application/
+Main 254.0 Main.qml
+depends QtQuick
+

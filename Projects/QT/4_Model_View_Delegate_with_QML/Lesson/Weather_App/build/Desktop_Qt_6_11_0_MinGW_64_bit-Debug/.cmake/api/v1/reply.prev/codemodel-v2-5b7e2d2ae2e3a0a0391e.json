@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-add37d9263be1da878b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Weather_App",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-e1ca597355a8da82ac8a.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-01626a20ecce2219615c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-73c8f51b49994d776f7b.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-fa5413f39418bc8c380c.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-02c99f48ae7edf467594.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App-Debug-74d04b1b03e01290dc91.json",
+					"name" : "appWeather_App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_autogen-Debug-1fa1ed296ee049baaf38.json",
+					"name" : "appWeather_App_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_autogen_timestamp_deps-Debug-f705a5ac7c8e84ef2671.json",
+					"name" : "appWeather_App_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_copy_qml-Debug-7cdd763f434760eb4a18.json",
+					"name" : "appWeather_App_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_copy_res-Debug-93ea224473660f82cd35.json",
+					"name" : "appWeather_App_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_qmlimportscan-Debug-2486bbeb2b60dec6c181.json",
+					"name" : "appWeather_App_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_qmllint-Debug-bd6462065c8530e6338d.json",
+					"name" : "appWeather_App_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_qmllint_json-Debug-b57341089ec1bf28a70c.json",
+					"name" : "appWeather_App_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_qmllint_module-Debug-7f8c0515efdd8c8dffc8.json",
+					"name" : "appWeather_App_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeather_App_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeather_App_qmltyperegistration-Debug-8e76fc304ef59defed33.json",
+					"name" : "appWeather_App_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-c549c9d25193d907838c.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3d53ae8505903ba819be.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-dcda1775b1618706fc50.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appWeather_App_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appWeather_App_aotstats_target-Debug-c41165a75f2b354356c4.json",
+					"name" : "module_appWeather_App_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

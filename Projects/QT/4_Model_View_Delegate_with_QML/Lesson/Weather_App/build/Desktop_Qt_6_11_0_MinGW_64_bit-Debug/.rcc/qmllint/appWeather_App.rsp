@@ -1,0 +1,16 @@
+--bare
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Weather_App
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.11.0/mingw_64/qml
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Weather_App.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appWeather_App_raw_qml_0.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appWeather_App_raw_res_0.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Lesson/Weather_App/Main.qml

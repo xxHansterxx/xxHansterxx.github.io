@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/Main.qml"
+                }
+            ],
+            "moduleId": "Music_Bar(appMusic_Bar)"
+        }
+    ]
+}

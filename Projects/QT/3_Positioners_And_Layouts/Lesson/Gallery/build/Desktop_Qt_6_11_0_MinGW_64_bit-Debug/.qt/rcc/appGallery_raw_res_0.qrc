@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/qt/qml/Gallery/">
+    <file alias="assets/image0.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image0.jpg</file>
+    <file alias="assets/image1.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image1.jpg</file>
+    <file alias="assets/image2.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image2.jpg</file>
+    <file alias="assets/image3.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image3.jpg</file>
+    <file alias="assets/image4.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image4.jpg</file>
+    <file alias="assets/image5.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image5.jpg</file>
+    <file alias="assets/image6.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image6.jpg</file>
+    <file alias="assets/image7.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image7.jpg</file>
+    <file alias="assets/image8.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image8.jpg</file>
+    <file alias="assets/image9.jpg">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/assets/image9.jpg</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,16 @@
+--bare
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Music_Bar
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.11.0/mingw_64/qml
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Music_Bar.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMusic_Bar_raw_qml_0.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/Main.qml
+--json
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appMusic_Bar_qmllint.json
