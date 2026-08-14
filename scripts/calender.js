@@ -32,33 +32,153 @@ const developmentDates = [
 
 
 // ==========================================
+// Holiday Dates
+// ==========================================
+
+const holidayDates = [
+    "07/06/2026",
+    "08/06/2026",
+    "09/06/2026",
+    "10/06/2026",
+    "11/06/2026",
+    "12/06/2026",
+
+    "22/06/2026",
+    "23/06/2026",
+    "24/06/2026",
+    "25/06/2026",
+    "26/06/2026"
+];
+
+
+// ==========================================
+// Generate Work Dates
+// Saturday, Sunday and Wednesday
+// ==========================================
+
+const workDates = [];
+
+
+// Starting date for work days
+const startDate = new Date(2026, 4, 22);
+
+
+// End date for generated work days
+const endDate = new Date(2026, 11, 31);
+
+
+// Wednesdays only count from 08/07/2026
+const wednesdayStartDate = new Date(2026, 6, 8);
+
+
+let workDate = new Date(startDate);
+
+
+while (workDate <= endDate) {
+
+    const dayOfWeek = workDate.getDay();
+
+
+    // ==========================================
+    // Sunday
+    // ==========================================
+
+    if (dayOfWeek === 0) {
+
+        workDates.push(
+            createDateId(
+                workDate.getDate(),
+                workDate.getMonth(),
+                workDate.getFullYear()
+            )
+        );
+
+    }
+
+
+    // ==========================================
+    // Saturday
+    // ==========================================
+
+    else if (dayOfWeek === 6) {
+
+        workDates.push(
+            createDateId(
+                workDate.getDate(),
+                workDate.getMonth(),
+                workDate.getFullYear()
+            )
+        );
+
+    }
+
+
+    // ==========================================
+    // Wednesday
+    // Only from 08/07/2026
+    // ==========================================
+
+    else if (
+        dayOfWeek === 3 &&
+        workDate >= wednesdayStartDate
+    ) {
+
+        workDates.push(
+            createDateId(
+                workDate.getDate(),
+                workDate.getMonth(),
+                workDate.getFullYear()
+            )
+        );
+
+    }
+
+
+    // Move to next day
+    workDate.setDate(
+        workDate.getDate() + 1
+    );
+
+}
+
+
+// ==========================================
 // Calendar Elements
 // ==========================================
 
-const monthYear = document.getElementById("month-year");
-const calendarDays = document.getElementById("calendar-days");
+const monthYear =
+    document.getElementById("month-year");
 
-const previousButton = document.getElementById("prev-month");
-const nextButton = document.getElementById("next-month");
+const calendarDays =
+    document.getElementById("calendar-days");
+
+const previousButton =
+    document.getElementById("prev-month");
+
+const nextButton =
+    document.getElementById("next-month");
 
 
 // ==========================================
-// Current Calendar Date
+// Starting Month
+// August 2026
 // ==========================================
-
-// Start calendar on August 2026
 
 let currentDate = new Date(2026, 7, 1);
 
 
 // ==========================================
 // Create Date ID
+// Format: DD/MM/YYYY
 // ==========================================
 
 function createDateId(day, month, year) {
 
-    const formattedDay = String(day).padStart(2, "0");
-    const formattedMonth = String(month + 1).padStart(2, "0");
+    const formattedDay =
+        String(day).padStart(2, "0");
+
+    const formattedMonth =
+        String(month + 1).padStart(2, "0");
 
     return `${formattedDay}/${formattedMonth}/${year}`;
 }
@@ -70,65 +190,102 @@ function createDateId(day, month, year) {
 
 function generateCalendar() {
 
-    const year = currentDate.getFullYear();
-    const month = currentDate.getMonth();
+    const year =
+        currentDate.getFullYear();
+
+    const month =
+        currentDate.getMonth();
 
 
-    // Display month and year
+    // ==========================================
+    // Month Name
+    // ==========================================
 
-    const monthName = currentDate.toLocaleDateString("en-GB", {
-        month: "long"
-    });
+    const monthName =
+        currentDate.toLocaleDateString(
+            "en-GB",
+            {
+                month: "long"
+            }
+        );
 
-    monthYear.textContent = `${monthName} ${year}`;
+
+    monthYear.textContent =
+        `${monthName} ${year}`;
 
 
     // Clear existing calendar
-
     calendarDays.innerHTML = "";
 
 
-    // Find first day of month
+    // ==========================================
+    // First Day Of Month
+    // ==========================================
 
-    const firstDay = new Date(year, month, 1).getDay();
-
-
-    // Find number of days in month
-
-    const daysInMonth = new Date(
-        year,
-        month + 1,
-        0
-    ).getDate();
+    const firstDay =
+        new Date(
+            year,
+            month,
+            1
+        ).getDay();
 
 
-    // Find number of days in previous month
+    // ==========================================
+    // Number Of Days In Month
+    // ==========================================
 
-    const daysInPreviousMonth = new Date(
-        year,
-        month,
-        0
-    ).getDate();
+    const daysInMonth =
+        new Date(
+            year,
+            month + 1,
+            0
+        ).getDate();
+
+
+    // ==========================================
+    // Number Of Days In Previous Month
+    // ==========================================
+
+    const daysInPreviousMonth =
+        new Date(
+            year,
+            month,
+            0
+        ).getDate();
 
 
     // ==========================================
     // Previous Month Days
     // ==========================================
 
-    for (let i = firstDay - 1; i >= 0; i--) {
+    for (
+        let i = firstDay - 1;
+        i >= 0;
+        i--
+    ) {
 
-        const day = daysInPreviousMonth - i;
+        const day =
+            daysInPreviousMonth - i;
 
-        const dayElement = document.createElement("div");
+
+        const dayElement =
+            document.createElement("div");
+
 
         dayElement.classList.add(
             "calendar-day",
             "other-month"
         );
 
-        dayElement.textContent = day;
 
-        calendarDays.appendChild(dayElement);
+        dayElement.textContent =
+            day;
+
+
+        calendarDays.appendChild(
+            dayElement
+        );
+
     }
 
 
@@ -136,43 +293,145 @@ function generateCalendar() {
     // Current Month Days
     // ==========================================
 
-    for (let day = 1; day <= daysInMonth; day++) {
+    for (
+        let day = 1;
+        day <= daysInMonth;
+        day++
+    ) {
 
-        const dateId = createDateId(
-            day,
-            month,
-            year
+
+        // ==========================================
+        // Create Date ID
+        // ==========================================
+
+        const dateId =
+            createDateId(
+                day,
+                month,
+                year
+            );
+
+
+        // ==========================================
+        // Create Calendar Day
+        // ==========================================
+
+        const dayElement =
+            document.createElement("div");
+
+
+        dayElement.classList.add(
+            "calendar-day"
         );
 
 
-        const dayElement = document.createElement("div");
-
-        dayElement.classList.add("calendar-day");
-
-
-        // Display day number
-
-        dayElement.textContent = day;
+        dayElement.textContent =
+            day;
 
 
         // ==========================================
-        // Green Development Date
+        // Get Today's Date
         // ==========================================
 
-        if (developmentDates.includes(dateId)) {
+        const today =
+            new Date();
 
-            dayElement.classList.add("completed");
+
+        today.setHours(
+            0,
+            0,
+            0,
+            0
+        );
+
+
+        // ==========================================
+        // Get Calendar Date
+        // ==========================================
+
+        const calendarDate =
+            new Date(
+                year,
+                month,
+                day
+            );
+
+
+        calendarDate.setHours(
+            0,
+            0,
+            0,
+            0
+        );
+
+
+        // ==========================================
+        // Future Dates
+        // ==========================================
+
+        if (calendarDate > today) {
+
+            dayElement.classList.add(
+                "future"
+            );
 
         }
 
 
         // ==========================================
-        // Red Non-development Date
+        // Holidays
+        // ==========================================
+
+        else if (
+            holidayDates.includes(dateId)
+        ) {
+
+            dayElement.classList.add(
+                "holiday"
+            );
+
+        }
+
+
+        // ==========================================
+        // Portfolio Development
+        // ==========================================
+
+        else if (
+            developmentDates.includes(dateId)
+        ) {
+
+            dayElement.classList.add(
+                "completed"
+            );
+
+        }
+
+
+        // ==========================================
+        // Work Days
+        // ==========================================
+
+        else if (
+            workDates.includes(dateId)
+        ) {
+
+            dayElement.classList.add(
+                "work-day"
+            );
+
+        }
+
+
+        // ==========================================
+        // Other Past Dates
         // ==========================================
 
         else {
 
-            dayElement.classList.add("not-completed");
+            dayElement.classList.add(
+                "not-completed"
+            );
 
         }
 
@@ -181,15 +440,15 @@ function generateCalendar() {
         // Highlight Today
         // ==========================================
 
-        const today = new Date();
-
         if (
             day === today.getDate() &&
             month === today.getMonth() &&
             year === today.getFullYear()
         ) {
 
-            dayElement.classList.add("today");
+            dayElement.classList.add(
+                "today"
+            );
 
         }
 
@@ -198,24 +457,37 @@ function generateCalendar() {
         // Click Date
         // ==========================================
 
-        dayElement.addEventListener("click", function () {
+        dayElement.addEventListener(
+            "click",
+            function () {
 
-            const target = document.getElementById(dateId);
+                const target =
+                    document.getElementById(
+                        dateId
+                    );
 
 
-            if (target) {
+                if (target) {
 
-                target.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                });
+                    target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+
+                }
 
             }
+        );
 
-        });
 
+        // ==========================================
+        // Add Day To Calendar
+        // ==========================================
 
-        calendarDays.appendChild(dayElement);
+        calendarDays.appendChild(
+            dayElement
+        );
+
     }
 
 
@@ -223,7 +495,9 @@ function generateCalendar() {
     // Next Month Days
     // ==========================================
 
-    const totalCells = firstDay + daysInMonth;
+    const totalCells =
+        firstDay + daysInMonth;
+
 
     const remainingCells =
         totalCells % 7 === 0
@@ -231,18 +505,30 @@ function generateCalendar() {
             : 7 - (totalCells % 7);
 
 
-    for (let day = 1; day <= remainingCells; day++) {
+    for (
+        let day = 1;
+        day <= remainingCells;
+        day++
+    ) {
 
-        const dayElement = document.createElement("div");
+        const dayElement =
+            document.createElement("div");
+
 
         dayElement.classList.add(
             "calendar-day",
             "other-month"
         );
 
-        dayElement.textContent = day;
 
-        calendarDays.appendChild(dayElement);
+        dayElement.textContent =
+            day;
+
+
+        calendarDays.appendChild(
+            dayElement
+        );
+
     }
 
 }
@@ -252,30 +538,38 @@ function generateCalendar() {
 // Previous Month Button
 // ==========================================
 
-previousButton.addEventListener("click", function () {
+previousButton.addEventListener(
+    "click",
+    function () {
 
-    currentDate.setMonth(
-        currentDate.getMonth() - 1
-    );
+        currentDate.setMonth(
+            currentDate.getMonth() - 1
+        );
 
-    generateCalendar();
 
-});
+        generateCalendar();
+
+    }
+);
 
 
 // ==========================================
 // Next Month Button
 // ==========================================
 
-nextButton.addEventListener("click", function () {
+nextButton.addEventListener(
+    "click",
+    function () {
 
-    currentDate.setMonth(
-        currentDate.getMonth() + 1
-    );
+        currentDate.setMonth(
+            currentDate.getMonth() + 1
+        );
 
-    generateCalendar();
 
-});
+        generateCalendar();
+
+    }
+);
 
 
 // ==========================================
