@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appAnimation_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_Animation.cpp"
+  ".rcc/qmlcache/appAnimation_Main_qml.cpp"
+  ".rcc/qmlcache/appAnimation_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appAnimation_qmlcache_loader.cpp"
+  "Animation/appAnimation.qmltypes"
+  "CMakeFiles/appAnimation_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appAnimation_autogen.dir/ParseCache.txt"
+  "appAnimation_autogen"
+  "CMakeFiles/appAnimation.dir/19cad87cd0d89bcf4b8f44efda7ca9e6/.rcc/qmlcache/appAnimation_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appAnimation.dir/19cad87cd0d89bcf4b8f44efda7ca9e6/.rcc/qmlcache/appAnimation_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appAnimation.dir/appAnimation_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appAnimation.dir/appAnimation_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appAnimation.dir/appanimation_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appAnimation.dir/appanimation_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appAnimation.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appAnimation_raw_qml_0.cpp.obj"
+  "CMakeFiles/appAnimation.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appAnimation_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appAnimation.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Animation.cpp.obj"
+  "CMakeFiles/appAnimation.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Animation.cpp.obj.d"
+  "CMakeFiles/appAnimation.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appAnimation_Main_qml.cpp.obj"
+  "CMakeFiles/appAnimation.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appAnimation_Main_qml.cpp.obj.d"
+  "CMakeFiles/appAnimation.dir/main.cpp.obj"
+  "CMakeFiles/appAnimation.dir/main.cpp.obj.d"
+  "appAnimation.exe"
+  "appAnimation.exe.manifest"
+  "appAnimation.pdb"
+  "appAnimation_autogen/mocs_compilation.cpp"
+  "appAnimation_autogen/timestamp"
+  "appanimation_qmltyperegistrations.cpp"
+  "libappAnimation.dll.a"
+  "meta_types/appAnimation_json_file_list.txt"
+  "meta_types/appAnimation_json_file_list.txt.timestamp"
+  "meta_types/qt6appanimation_metatypes.json"
+  "meta_types/qt6appanimation_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appAnimation.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

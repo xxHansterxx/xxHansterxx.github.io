@@ -1,0 +1,13 @@
+module E_Book
+typeinfo appE_Book.qmltypes
+prefer :/qt/qml/E_Book/
+Main 254.0 Main.qml
+Book 254.0 Book.qml
+BookPage 254.0 BookPage.qml
+DarkModeSwitch 254.0 DarkModeSwitch.qml
+FontSizeSlider 254.0 FontSizeSlider.qml
+GreatNightIn 254.0 GreatNightIn.qml
+SettingsButton 254.0 SettingsButton.qml
+Theme 254.0 Theme.qml
+depends QtQuick
+

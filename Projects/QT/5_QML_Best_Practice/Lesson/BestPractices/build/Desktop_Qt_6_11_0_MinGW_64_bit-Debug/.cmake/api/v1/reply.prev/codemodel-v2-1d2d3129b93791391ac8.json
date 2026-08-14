@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d13a876055e9f4fdb208.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BestPractices",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-53408ab5ebde0629b899.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-0f1d9ddc31ccc6b23070.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-dd1c35a22f964ad6b069.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-1c7e3eda846e41b8512a.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6d37a82163a031981269.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices-Debug-e8fda6850b19c5e73f30.json",
+					"name" : "appBestPractices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_autogen-Debug-b6fb18d12042c27b4ea1.json",
+					"name" : "appBestPractices_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_autogen_timestamp_deps-Debug-35493b7ba7f8fab4257f.json",
+					"name" : "appBestPractices_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_copy_qml-Debug-2cf1501b5488698b10ad.json",
+					"name" : "appBestPractices_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_copy_res-Debug-4d4927c24e0a9167bfaa.json",
+					"name" : "appBestPractices_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_qmlimportscan-Debug-676797162ee4c89eff36.json",
+					"name" : "appBestPractices_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_qmllint-Debug-7b0ca3ebfb076ec16dad.json",
+					"name" : "appBestPractices_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_qmllint_json-Debug-4ba709654f598fbd3c0f.json",
+					"name" : "appBestPractices_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_qmllint_module-Debug-9bff01a5de02f92816bd.json",
+					"name" : "appBestPractices_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appBestPractices_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appBestPractices_qmltyperegistration-Debug-04562c8edc1780249a27.json",
+					"name" : "appBestPractices_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-c549c9d25193d907838c.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3d53ae8505903ba819be.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-dcda1775b1618706fc50.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appBestPractices_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appBestPractices_aotstats_target-Debug-0a4b8c53d1a656a10c09.json",
+					"name" : "module_appBestPractices_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

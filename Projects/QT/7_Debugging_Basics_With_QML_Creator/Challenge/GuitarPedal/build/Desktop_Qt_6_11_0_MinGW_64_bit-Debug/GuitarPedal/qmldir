@@ -1,0 +1,6 @@
+module GuitarPedal
+typeinfo appGuitarPedal.qmltypes
+prefer :/qt/qml/GuitarPedal/
+Main 254.0 Main.qml
+depends QtQuick
+

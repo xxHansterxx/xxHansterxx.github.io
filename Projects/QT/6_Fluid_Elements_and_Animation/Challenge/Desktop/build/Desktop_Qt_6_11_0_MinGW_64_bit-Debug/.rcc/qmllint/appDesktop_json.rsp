@@ -1,0 +1,17 @@
+--bare
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Desktop
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.11.0/mingw_64/qml
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Desktop.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appDesktop_raw_qml_0.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/Main.qml
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/AppModel.qml
+--json
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appDesktop_qmllint.json

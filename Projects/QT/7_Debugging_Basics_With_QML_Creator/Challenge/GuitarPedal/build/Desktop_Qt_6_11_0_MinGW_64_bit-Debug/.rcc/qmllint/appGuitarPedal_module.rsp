@@ -1,0 +1,16 @@
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/GuitarPedal
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.11.0/mingw_64/qml
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_GuitarPedal.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appGuitarPedal_raw_qml_0.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appGuitarPedal_raw_res_0.qrc
+--module
+GuitarPedal

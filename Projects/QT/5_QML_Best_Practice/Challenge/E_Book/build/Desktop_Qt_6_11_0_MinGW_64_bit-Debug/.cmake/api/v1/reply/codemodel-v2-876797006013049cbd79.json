@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-33b10b93a37dc24ceb66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "E_Book",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-5114f1dca0377c15b7f6.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-b3e6e750b37de414f491.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-e61c2a617800c6d77464.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-c698ebba2f1db468186d.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-a225545e4088ef937431.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book-Debug-856a443a005f3729a198.json",
+					"name" : "appE_Book",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_autogen-Debug-92293e48bd88278d4af8.json",
+					"name" : "appE_Book_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_autogen_timestamp_deps-Debug-ebd439845cbc96189f2d.json",
+					"name" : "appE_Book_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_copy_qml-Debug-6cb626e8abbcaa339161.json",
+					"name" : "appE_Book_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_copy_res-Debug-658e326a1635f23fb29f.json",
+					"name" : "appE_Book_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_qmlimportscan-Debug-64861eb7f40d65981fa8.json",
+					"name" : "appE_Book_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_qmllint-Debug-570f755b4805d51a1624.json",
+					"name" : "appE_Book_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_qmllint_json-Debug-defd0b6e86b30fef388a.json",
+					"name" : "appE_Book_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_qmllint_module-Debug-062c286e23ea4d03bada.json",
+					"name" : "appE_Book_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appE_Book_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appE_Book_qmltyperegistration-Debug-ede45485882dcd3c6a34.json",
+					"name" : "appE_Book_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-c549c9d25193d907838c.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3d53ae8505903ba819be.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-dcda1775b1618706fc50.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appE_Book_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appE_Book_aotstats_target-Debug-f9fa47b3830f6398c699.json",
+					"name" : "module_appE_Book_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,6 @@
+module Animation
+typeinfo appAnimation.qmltypes
+prefer :/qt/qml/Animation/
+Main 254.0 Main.qml
+depends QtQuick
+

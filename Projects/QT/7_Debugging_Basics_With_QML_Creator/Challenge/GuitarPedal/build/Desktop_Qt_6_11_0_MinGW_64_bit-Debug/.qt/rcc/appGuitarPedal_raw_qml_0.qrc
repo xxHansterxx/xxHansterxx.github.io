@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/GuitarPedal/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/Main.qml</file>
+  </qresource>
+</RCC>
+

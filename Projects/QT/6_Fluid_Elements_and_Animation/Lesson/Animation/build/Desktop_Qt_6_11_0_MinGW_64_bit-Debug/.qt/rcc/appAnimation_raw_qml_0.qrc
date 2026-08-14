@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Animation/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation/Main.qml</file>
+  </qresource>
+</RCC>
+
