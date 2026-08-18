@@ -1,0 +1,14 @@
+-rootPath
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop
+-cmake-output
+-output-file
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qml_imports/appDesktop_conf.cmake
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Desktop
+-importPath
+C:/Qt/6.11.0/mingw_64/qml
+-qrcFiles
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Desktop.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appDesktop_raw_qml_0.qrc

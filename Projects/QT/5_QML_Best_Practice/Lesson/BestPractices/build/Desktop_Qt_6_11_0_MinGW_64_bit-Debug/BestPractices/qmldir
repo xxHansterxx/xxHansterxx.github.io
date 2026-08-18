@@ -1,0 +1,7 @@
+module BestPractices
+typeinfo appBestPractices.qmltypes
+prefer :/qt/qml/BestPractices/
+Main 254.0 Main.qml
+Backend 254.0 Backend.qml
+depends QtQuick
+

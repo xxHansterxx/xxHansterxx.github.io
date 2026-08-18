@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/Desktop/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/Main.qml</file>
+    <file alias="AppModel.qml">C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Challenge/Desktop/AppModel.qml</file>
+  </qresource>
+</RCC>
+

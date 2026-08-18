@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\appMusic_Bar.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\appMusic_Bar.dir/objects.a @CMakeFiles\appMusic_Bar.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\appMusic_Bar.dir/objects.a -Wl,--no-whole-archive -o appMusic_Bar.exe -Wl,--out-implib,libappMusic_Bar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\appMusic_Bar.dir\linkLibs.rsp

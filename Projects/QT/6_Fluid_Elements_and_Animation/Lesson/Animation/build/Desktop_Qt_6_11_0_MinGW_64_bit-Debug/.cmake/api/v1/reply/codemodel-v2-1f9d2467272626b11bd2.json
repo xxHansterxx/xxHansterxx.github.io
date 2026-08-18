@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-92788ae55f5bc799cb97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Animation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-e486ef4a1c9beaca7157.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-3b21a1f93cd85c042ca1.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-f3f3531ed7ff70783c1a.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-da1f33109a8122323555.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-3c08b3f183f67e2026b9.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation-Debug-ac18c57235fa0a06deca.json",
+					"name" : "appAnimation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_autogen-Debug-9f4bd8199cba0fa032a3.json",
+					"name" : "appAnimation_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_autogen_timestamp_deps-Debug-95885b3abb6adf90d95b.json",
+					"name" : "appAnimation_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_copy_qml-Debug-d45e91e7ce672eb906ac.json",
+					"name" : "appAnimation_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_copy_res-Debug-fa1011c10115137d5937.json",
+					"name" : "appAnimation_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_qmlimportscan-Debug-732987f6aefa2fc54c76.json",
+					"name" : "appAnimation_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_qmllint-Debug-6f91114208d9be165d40.json",
+					"name" : "appAnimation_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_qmllint_json-Debug-7bd2939debea98b32042.json",
+					"name" : "appAnimation_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_qmllint_module-Debug-8cf31008f559c9cedc17.json",
+					"name" : "appAnimation_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAnimation_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAnimation_qmltyperegistration-Debug-b63704039678c9c18486.json",
+					"name" : "appAnimation_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-c549c9d25193d907838c.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3d53ae8505903ba819be.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-dcda1775b1618706fc50.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appAnimation_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appAnimation_aotstats_target-Debug-27f85d2befe259b55cf8.json",
+					"name" : "module_appAnimation_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,6 @@
+module Gallery
+typeinfo appGallery.qmltypes
+prefer :/qt/qml/Gallery/
+Main 254.0 Main.qml
+depends QtQuick
+

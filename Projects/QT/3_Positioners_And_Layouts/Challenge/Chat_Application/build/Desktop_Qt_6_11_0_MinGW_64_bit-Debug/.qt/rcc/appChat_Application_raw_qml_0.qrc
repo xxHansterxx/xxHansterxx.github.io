@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Chat_Application/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/Main.qml</file>
+  </qresource>
+</RCC>
+

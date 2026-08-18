@@ -1,0 +1,31 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 13,
+                            "durationMicroseconds": 1000,
+                            "functionName": "source",
+                            "line": 7,
+                            "message": "Cannot load property darkMode from const QMetaObject."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTapped",
+                            "line": 11,
+                            "message": "Cannot access value for name drawer"
+                        }
+                    ],
+                    "filePath": "C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/SettingsButton.qml"
+                }
+            ],
+            "moduleId": "E_Book(appE_Book)"
+        }
+    ]
+}

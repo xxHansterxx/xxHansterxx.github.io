@@ -1,0 +1,12 @@
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_E_Book.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appE_Book_raw_qml_0.qrc
+/qt/qml/E_Book/Main.qml
+/qt/qml/E_Book/Book.qml
+/qt/qml/E_Book/BookPage.qml
+/qt/qml/E_Book/DarkModeSwitch.qml
+/qt/qml/E_Book/FontSizeSlider.qml
+/qt/qml/E_Book/GreatNightIn.qml
+/qt/qml/E_Book/SettingsButton.qml
+/qt/qml/E_Book/Theme.qml

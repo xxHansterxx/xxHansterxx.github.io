@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Music_Bar/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/Main.qml</file>
+  </qresource>
+</RCC>
+

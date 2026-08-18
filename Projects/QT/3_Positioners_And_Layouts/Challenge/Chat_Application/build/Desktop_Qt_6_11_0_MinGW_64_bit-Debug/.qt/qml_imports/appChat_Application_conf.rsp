@@ -1,0 +1,15 @@
+-rootPath
+C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application
+-cmake-output
+-output-file
+C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qml_imports/appChat_Application_conf.cmake
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Chat_Application
+-importPath
+C:/Qt/6.11.0/mingw_64/qml
+-qrcFiles
+C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Chat_Application.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appChat_Application_raw_qml_0.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appChat_Application_raw_res_0.qrc

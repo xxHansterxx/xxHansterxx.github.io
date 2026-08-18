@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appMusic_Bar_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_Music_Bar.cpp"
+  ".rcc/qmlcache/appMusic_Bar_Main_qml.cpp"
+  ".rcc/qmlcache/appMusic_Bar_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appMusic_Bar_qmlcache_loader.cpp"
+  "CMakeFiles/appMusic_Bar_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appMusic_Bar_autogen.dir/ParseCache.txt"
+  "appMusic_Bar_autogen"
+  "CMakeFiles/appMusic_Bar.dir/19cad87cd0d89bcf4b8f44efda7ca9e6/.rcc/qmlcache/appMusic_Bar_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appMusic_Bar.dir/19cad87cd0d89bcf4b8f44efda7ca9e6/.rcc/qmlcache/appMusic_Bar_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appMusic_Bar.dir/appMusic_Bar_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appMusic_Bar.dir/appMusic_Bar_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appMusic_Bar.dir/appmusic_bar_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appMusic_Bar.dir/appmusic_bar_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appMusic_Bar.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMusic_Bar_raw_qml_0.cpp.obj"
+  "CMakeFiles/appMusic_Bar.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appMusic_Bar_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appMusic_Bar.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Music_Bar.cpp.obj"
+  "CMakeFiles/appMusic_Bar.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Music_Bar.cpp.obj.d"
+  "CMakeFiles/appMusic_Bar.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMusic_Bar_Main_qml.cpp.obj"
+  "CMakeFiles/appMusic_Bar.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appMusic_Bar_Main_qml.cpp.obj.d"
+  "CMakeFiles/appMusic_Bar.dir/main.cpp.obj"
+  "CMakeFiles/appMusic_Bar.dir/main.cpp.obj.d"
+  "Music_Bar/appMusic_Bar.qmltypes"
+  "appMusic_Bar.exe"
+  "appMusic_Bar.exe.manifest"
+  "appMusic_Bar.pdb"
+  "appMusic_Bar_autogen/mocs_compilation.cpp"
+  "appMusic_Bar_autogen/timestamp"
+  "appmusic_bar_qmltyperegistrations.cpp"
+  "libappMusic_Bar.dll.a"
+  "meta_types/appMusic_Bar_json_file_list.txt"
+  "meta_types/appMusic_Bar_json_file_list.txt.timestamp"
+  "meta_types/qt6appmusic_bar_metatypes.json"
+  "meta_types/qt6appmusic_bar_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appMusic_Bar.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,6 @@
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_BestPractices.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appBestPractices_raw_qml_0.qrc
+/qt/qml/BestPractices/Main.qml
+/qt/qml/BestPractices/Backend.qml

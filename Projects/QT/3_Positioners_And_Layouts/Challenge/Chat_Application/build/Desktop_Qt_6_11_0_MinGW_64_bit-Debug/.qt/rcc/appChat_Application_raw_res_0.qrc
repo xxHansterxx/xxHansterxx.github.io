@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/Chat_Application/">
+    <file alias="assets/paperclip-solid.png">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/assets/paperclip-solid.png</file>
+    <file alias="assets/paper-plane-regular.png">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Challenge/Chat_Application/assets/paper-plane-regular.png</file>
+  </qresource>
+</RCC>
+

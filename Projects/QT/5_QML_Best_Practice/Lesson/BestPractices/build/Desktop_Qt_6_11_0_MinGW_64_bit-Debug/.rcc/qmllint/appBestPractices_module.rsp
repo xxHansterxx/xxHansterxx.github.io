@@ -1,0 +1,14 @@
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/BestPractices
+-I
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.11.0/mingw_64/qml
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_BestPractices.qrc
+--resource
+C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Lesson/BestPractices/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appBestPractices_raw_qml_0.qrc
+--module
+BestPractices

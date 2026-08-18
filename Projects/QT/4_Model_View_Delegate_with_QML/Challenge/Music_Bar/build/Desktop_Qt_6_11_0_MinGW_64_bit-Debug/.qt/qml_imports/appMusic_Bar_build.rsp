@@ -1,0 +1,14 @@
+-rootPath
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar
+-cmake-output
+-output-file
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qml_imports/appMusic_Bar_build.cmake
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Music_Bar
+-importPath
+C:/Qt/6.11.0/mingw_64/qml
+-qrcFiles
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Music_Bar.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/4_Model_View_Delegate_with_QML/Challenge/Music_Bar/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appMusic_Bar_raw_qml_0.qrc

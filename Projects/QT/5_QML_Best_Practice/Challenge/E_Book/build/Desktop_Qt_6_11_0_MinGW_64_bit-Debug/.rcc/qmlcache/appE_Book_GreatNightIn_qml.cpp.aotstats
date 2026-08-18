@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/GreatNightIn.qml"
+                }
+            ],
+            "moduleId": "E_Book(appE_Book)"
+        }
+    ]
+}

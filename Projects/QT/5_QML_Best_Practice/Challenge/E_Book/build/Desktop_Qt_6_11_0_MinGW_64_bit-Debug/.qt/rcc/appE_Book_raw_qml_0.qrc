@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt/qml/E_Book/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/Main.qml</file>
+    <file alias="Book.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/Book.qml</file>
+    <file alias="BookPage.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/BookPage.qml</file>
+    <file alias="DarkModeSwitch.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/DarkModeSwitch.qml</file>
+    <file alias="FontSizeSlider.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/FontSizeSlider.qml</file>
+    <file alias="GreatNightIn.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/GreatNightIn.qml</file>
+    <file alias="SettingsButton.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/SettingsButton.qml</file>
+    <file alias="Theme.qml">C:/Coding/StudyPath.github.io/Projects/QT/5_QML_Best_Practice/Challenge/E_Book/Theme.qml</file>
+  </qresource>
+</RCC>
+

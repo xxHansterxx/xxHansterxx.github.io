@@ -1,0 +1,7 @@
+module Desktop
+typeinfo appDesktop.qmltypes
+prefer :/qt/qml/Desktop/
+Main 254.0 Main.qml
+AppModel 254.0 AppModel.qml
+depends QtQuick
+

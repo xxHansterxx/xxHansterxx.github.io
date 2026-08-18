@@ -1,0 +1,14 @@
+-rootPath
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation
+-cmake-output
+-output-file
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qml_imports/appAnimation_conf.cmake
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-importPath
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Animation
+-importPath
+C:/Qt/6.11.0/mingw_64/qml
+-qrcFiles
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Animation.qrc
+C:/Coding/StudyPath.github.io/Projects/QT/6_Fluid_Elements_and_Animation/Lesson/Animation/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appAnimation_raw_qml_0.qrc

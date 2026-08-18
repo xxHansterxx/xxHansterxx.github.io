@@ -1,0 +1,27 @@
+<RCC>
+  <qresource prefix="/qt/qml/GuitarPedal/">
+    <file alias="assets/Button-Pedal-Checked.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Button-Pedal-Checked.png</file>
+    <file alias="assets/Button-Pedal-Checked@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Button-Pedal-Checked@2x.png</file>
+    <file alias="assets/Button-Pedal.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Button-Pedal.png</file>
+    <file alias="assets/Button-Pedal@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Button-Pedal@2x.png</file>
+    <file alias="assets/Guitar-Pedal-Background.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Guitar-Pedal-Background.png</file>
+    <file alias="assets/Guitar-Pedal-Background@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Guitar-Pedal-Background@2x.png</file>
+    <file alias="assets/Knob-Dial.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Knob-Dial.png</file>
+    <file alias="assets/Knob-Dial@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Knob-Dial@2x.png</file>
+    <file alias="assets/Knob-Markings.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Knob-Markings.png</file>
+    <file alias="assets/Knob-Markings@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Knob-Markings@2x.png</file>
+    <file alias="assets/LED-Checked.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/LED-Checked.png</file>
+    <file alias="assets/LED-Checked@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/LED-Checked@2x.png</file>
+    <file alias="assets/LED.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/LED.png</file>
+    <file alias="assets/LED@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/LED@2x.png</file>
+    <file alias="assets/Screw.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Screw.png</file>
+    <file alias="assets/Screw@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Screw@2x.png</file>
+    <file alias="assets/Switch-Checked.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Switch-Checked.png</file>
+    <file alias="assets/Switch-Checked@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Switch-Checked@2x.png</file>
+    <file alias="assets/Switch.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Switch.png</file>
+    <file alias="assets/Switch@2x.png">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/assets/Switch@2x.png</file>
+    <file alias="fonts/Prisma.ttf">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/fonts/Prisma.ttf</file>
+    <file alias="fonts/RussoOne-Regular.ttf">C:/Coding/StudyPath.github.io/Projects/QT/7_Debugging_Basics_With_QML_Creator/Challenge/GuitarPedal/fonts/RussoOne-Regular.ttf</file>
+  </qresource>
+</RCC>
+

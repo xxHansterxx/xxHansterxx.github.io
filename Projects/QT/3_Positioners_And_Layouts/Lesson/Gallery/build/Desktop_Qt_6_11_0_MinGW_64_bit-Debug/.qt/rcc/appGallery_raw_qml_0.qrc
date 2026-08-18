@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Gallery/">
+    <file alias="Main.qml">C:/Coding/StudyPath.github.io/Projects/QT/3_Positioners_And_Layouts/Lesson/Gallery/Main.qml</file>
+  </qresource>
+</RCC>
+
