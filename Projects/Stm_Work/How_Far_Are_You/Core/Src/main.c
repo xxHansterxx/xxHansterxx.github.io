@@ -428,13 +428,15 @@ void lcd_send_string(char *str)
 /*Ultrasonic Sensor*/
 void HCSR04_Read (void)
 {
-	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, GPIO_PIN_SET);  // pull the TRIG pin HIGH
-	delay(10);  // wait for 10 us
-	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, GPIO_PIN_RESET);  // pull the TRIG pin low
+	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, GPIO_PIN_SET);  // set pin high
+	delay(2);  // wait for 10 us
+	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, GPIO_PIN_RESET);  // set pin low
+	delay(10);
 
 	__HAL_TIM_ENABLE_IT(&htim1, TIM_IT_CC1);
 }
 
+/*Rising Edge Detection*/
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
   {
 	static int Is_First_Captured;
