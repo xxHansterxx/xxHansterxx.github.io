@@ -143,10 +143,27 @@ int main(void)
 
   while (1)
   {
-	  BSP_LED_Toggle(LED_GREEN);
-	  HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1);
+	  display();
+  }
+  /* USER CODE END 3 */
+}
+
+/*display distance*/
+void display (void){
+
+	HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1);
       HCSR04_Read();
 
+      if (Distance < 10)
+      {
+    	  BSP_LED_On(LED_GREEN);
+    	  BSP_LED_Off(LED_RED);
+      }
+      else
+      {
+    	  BSP_LED_On(LED_RED);
+    	  BSP_LED_Off(LED_GREEN);
+      }
       lcd_init();
       char fltChar[7];
       sprintf(fltChar, "%.3f", Distance);
@@ -155,10 +172,7 @@ int main(void)
 
       HAL_Delay(1000);
       HAL_TIM_IC_Stop_IT(&htim1, TIM_CHANNEL_1);
-  }
-  /* USER CODE END 3 */
 }
-
 /**
   * @brief System Clock Configuration
   * @retval None
