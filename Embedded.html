@@ -65,13 +65,13 @@
             <span class="Home_checklist"></span>
             </label><br>
 
-            <label class="container">Other Embedded Courses
-            <input type="checkbox">
+            <label class="container">Embedded Project with Ultasonic Sensor
+            <input type="checkbox" checked="checked">
             <span class="Home_checklist"></span>
             </label><br>
 
-            <label class="container">Embedded Projects
-            <input type="checkbox" checked="checked">
+            <label class="container">Embedded Project with light Sensor
+            <input type="checkbox" >
             <span class="Home_checklist"></span>
             </label><br>
         </section>
@@ -94,15 +94,15 @@
                     <span class="label">2</span>
                     <span class="title">Milestone 2</span>
                     </a>
-                    <span class="bar"></span>
+                    <span class="bar done"></span>
 
-                    <a href="#milestone-3" class="circle">
+                    <a href="#milestone-3" class="circle done">
                     <span class="label">3</span>
                     <span class="title">Milestone 3</span>
                     </a>
-                    <span class="bar done"></span>
+                    <span class="bar active"></span>
 
-                    <a href="#milestone-4" class="circle done">
+                    <a href="#milestone-4" class="circle active">
                     <span class="label">4</span>
                     <span class="title">Milestone 4</span>
                     </a>
@@ -2252,7 +2252,7 @@
 
                             
                             <section>
-                                <h2 class="subtitle" id="milestone-4">Milestone 4</h2>
+                                <h2 class="subtitle" id="milestone-3">Milestone 3</h2>
                                 <h3 class="date">11/08/2026</h3>
                                 <h3 class="subtitle">Measuring Distance using Ultrasonc Sensor and Displaying Results on LCD</h3>
                                 <p class="general_text">
@@ -2291,7 +2291,7 @@
                                     </label><br>
 
                                 <figure>
-                                    <img src="images/Embedded/Milestone4/Wired_Circuit.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <img src="images/Embedded/Milestone3/Wired_Circuit.jpg" class="PLC_Completion" alt="Progress Image">
                                     <figcaption class="html_fig">
                                         This image shows that I used a breadboard to wire my compenents. This was becuase both needed 5V and I wanted the Ultransonic sensors to be mounted
                                         vertically instead of it being directly wired directly into my microcontroller. This Layout was powered using a power supply  which cannot be seen in this
@@ -2300,7 +2300,7 @@
                                 </figure>
                                             
                                 <figure>
-                                    <img src="images/Embedded/Milestone4/I2C_Image.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <img src="images/Embedded/Milestone3/I2C_Image.jpg" class="PLC_Completion" alt="Progress Image">
                                     <figcaption class="html_fig">
                                         This image shows succesful completion of data being sent over I2C to the LCD. I send all data in strings, this does mean when I want to display the distance
                                         I will have to convert it from a double to a string.
@@ -2310,23 +2310,70 @@
                             
                             <h3 class="date">15/09/2026</h3>
                             <figure>
-                                    <img src="images/Embedded/Milestone4/completed_project.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <img src="images/Embedded/Milestone3/completed_project.jpg" class="PLC_Completion" alt="Progress Image">
                                     <figcaption class="html_fig">
                                         This image shows succesful completion of the correct distance being measured and then displayed on the LCD screen.
                                     </figcaption>
                                 </figure>
                             </section>
 
-                            <figure>
-                            <video  class="PLC_Completion" controls>
-                            <source src="images/Embedded/Milestone4/Working_Project.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                            </video>
-                            <figcaption class="html_fig">
-                                This is video evidence of the working project, there is some noise which needs to be explored but the result is mostly correct.
-                            </figcaption>
-                        </figure>
-                                
+
+                            <section>
+                                <h2 class="subtitle" id="milestone-4">Milestone 4</h2>
+                                <h3 class="date">17/09/2026</h3>
+                                <h3 class="subtitle">Measuring Ambiant Light With a Sensor and Displaying It On The Board LED</h3>
+                                <p class="general_text">
+                                    This project focuses on the ability to pull raw data from a sensor and process this to a real world value.
+                                    This value will then be diaplayed on the on board LED which will be dimmed uding pulse width modulation.
+                                    
+                                </p>
+
+                                    <label class="container">Plan Code
+                                    <input type="checkbox" checked="checked" >
+                                    <span class="Home_checklist"></span>
+                                    </label><br>
+
+                                    <label class="container">Configure Pins on STM32CubeIDE
+                                    <input type="checkbox" checked="checked" >
+                                    <span class="Home_checklist"></span>
+                                    </label><br>
+
+                                    <label class="container">Wire Up Sensor
+                                    <input type="checkbox" checked="checked" >
+                                    <span class="Home_checklist"></span>
+                                    </label><br>
+
+                                    <label class="container">Pull data from light sensor
+                                    <input type="checkbox" checked="checked" >
+                                    <span class="Home_checklist"></span>
+                                    </label><br>
+
+                                    <label class="container">Turn Data into readible value
+                                    <input type="checkbox">
+                                    <span class="Home_checklist"></span>
+                                    </label><br>
+
+                                    <label class="container">Use PWM to display on on-board LED
+                                    <input type="checkbox"  >
+                                    <span class="Home_checklist"></span>
+                                    </label><br>
+
+                                    <figure>
+                                        <img src="images/Embedded/Milestone4/Green_LED_On.jpg" class="PLC_Completion" alt="Progress Image">
+                                        <figcaption class="html_fig">
+                                            This image shows that when the light is above the set value the green LED will turn on.
+                                        </figcaption>
+                                    </figure>
+
+                                    <figure>
+                                        <img src="images/Embedded/Milestone4/Red_LED_on.jpg" class="PLC_Completion" alt="Progress Image">
+                                        <figcaption class="html_fig">
+                                            This image shows that when the light is below the set value the red LED will turn on. Both Imaged
+                                            also highlight the wiring for the LED.
+                                        </figcaption>
+                                    </figure>
+
+                            </section>  
         <footer>
             <section>
                 <a href="https://uk.linkedin.com/in/hannah-arnold-848b372a7" target="_blank"><img src="design/linkedin-logo.avif" class="LinkIcon" alt="My LinkedIn Page"/></a>
