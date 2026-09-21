@@ -42,10 +42,17 @@
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
 
-double light;
-
 /* USER CODE BEGIN PV */
-
+#define V_REF 5
+#define RESOLUTION 4096
+double ADC_VALUE;
+double light;
+double lowest = 27;
+double highest = 27;
+double average;
+double added_values;
+double new_value;
+int number_of_readings = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -53,9 +60,8 @@ void SystemClock_Config(void);
 static void MPU_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_ADC1_Init(void);
-void light_sensor(void);
 /* USER CODE BEGIN PFP */
-
+void light_sensor(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -104,38 +110,14 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
 	  light_sensor();
+    /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
 
-/**
-  * @brief Light Sensor Function
-  * @retval None
-  */
-void light_sensor(void)
-{
-
-	HAL_ADC_Start(&hadc1);
-	HAL_ADC_PollForConversion(&hadc1, 100);
-	light = HAL_ADC_GetValue(&hadc1);
-	HAL_ADC_Stop(&hadc1);
-	HAL_Delay(50);
-
-	if (light > 25000)
-	{
-		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
-		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
-
-	}
-	else
-	{
-		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
-		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
-	}
-}
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -326,6 +308,45 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+/**
+  * @brief Light Sensor Function
+  * @retval None
+  */
+
+void light_sensor(void)
+{
+
+	HAL_ADC_Start(&hadc1);
+	HAL_ADC_PollForConversion(&hadc1, 100);
+	ADC_VALUE = HAL_ADC_GetValue(&hadc1);
+	HAL_ADC_Stop(&hadc1);
+
+	light = (ADC_VALUE/RESOLUTION)*V_REF;
+
+	if (light < lowest)
+	{
+		lowest = light;
+	}
+
+	if (light > highest)
+		{
+			highest = light;
+		}
+
+	added_values += light;
+	number_of_readings++;
+
+	if (number_of_readings == 10)
+	{
+		average = added_values / number_of_readings;
+
+		added_values = 0;
+		number_of_readings = 0;
+	}
+
+	HAL_Delay(50);
+}
 
 /* USER CODE END 4 */
 
