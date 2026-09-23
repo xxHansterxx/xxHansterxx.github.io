@@ -2306,8 +2306,9 @@
                                         I will have to convert it from a double to a string.
                                     </figcaption>
                                 </figure>
-                            </section>
+
                             
+                           
                             <h3 class="date">15/09/2026</h3>
                             <figure>
                                     <img src="images/Embedded/Milestone3/completed_project.jpg" class="PLC_Completion" alt="Progress Image">
@@ -2315,103 +2316,145 @@
                                         This image shows succesful completion of the correct distance being measured and then displayed on the LCD screen.
                                     </figcaption>
                                 </figure>
-                            </section>
+                            
+                            
+                            <video class="PLC_Completion" controls>
+                                <source src="images/Embedded/Milestone3/Working_Project.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <figcaption class="html_fig">
+                                This video shows succesful completion of the correct distance being measured and then displayed on the LCD screen.
+                            </figcaption>
+                        </section>
 
+                        <section>
+                            <h2 class="subtitle" id="milestone-4">Milestone 4</h2>
+                            <h3 class="date">17/09/2026</h3>
+                            <h3 class="subtitle">Measuring Ambiant Light With a Sensor and Displaying It On The Board LED</h3>
+                            <p class="general_text">
+                                This project focuses on the ability to pull raw data from a sensor and process this to a real world value.
+                                This value will then be diaplayed on the on board LED which will be dimmed uding pulse width modulation.
+                                
+                            </p>
 
-                            <section>
-                                <h2 class="subtitle" id="milestone-4">Milestone 4</h2>
+                                <label class="container">Plan Code
+                                <input type="checkbox" checked="checked" >
+                                <span class="Home_checklist"></span>
+                                </label><br>
+
+                                <label class="container">Configure Pins on STM32CubeIDE
+                                <input type="checkbox" checked="checked" >
+                                <span class="Home_checklist"></span>
+                                </label><br>
+
+                                <label class="container">Wire Up Sensor
+                                <input type="checkbox" checked="checked" >
+                                <span class="Home_checklist"></span>
+                                </label><br>
+
+                                <label class="container">Pull data from light sensor
+                                <input type="checkbox" checked="checked" >
+                                <span class="Home_checklist"></span>
+                                </label><br>
+
+                                <label class="container">Turn data into readible value
+                                <input type="checkbox" checked="checked">
+                                <span class="Home_checklist"></span>
+                                </label><br>
+
+                                <label class="container">Use PWM to display on on-board LED
+                                <input type="checkbox" checked="checked" >
+                                <span class="Home_checklist"></span>
+                                </label><br>
+
+                                <label class="container">Add motor to represent a blind
+                                <input type="checkbox" checked="checked" >
+                                <span class="Home_checklist"></span>
+                                </label><br>
+
+                                <figure>
+                                    <img src="images/Embedded/Milestone4/Green_LED_On.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows that when the light is above the set value the green LED will turn on.
+                                    </figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img src="images/Embedded/Milestone4/Red_LED_on.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows that when the light is below the set value the red LED will turn on. Both Imaged
+                                        also highlight the wiring for the LED.
+                                    </figcaption>
+                                </figure>
+
                                 <h3 class="date">17/09/2026</h3>
-                                <h3 class="subtitle">Measuring Ambiant Light With a Sensor and Displaying It On The Board LED</h3>
-                                <p class="general_text">
-                                    This project focuses on the ability to pull raw data from a sensor and process this to a real world value.
-                                    This value will then be diaplayed on the on board LED which will be dimmed uding pulse width modulation.
-                                    
-                                </p>
+                                <figure>
+                                    <img src="images/Embedded/Milestone4/Value_Conversion.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows how the data is converted from a raw adc value to a digital value.
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/Embedded/Milestone4/Lowest_Value.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows how the lowest digital value is found. For this value I closed all of the blinds,
+                                        closed the door and found a small box with thick cardboard to place over the sensor to minimise as
+                                        much light as possible.
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/Embedded/Milestone4/Highest_Value.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows how the highest digital value is found. For this value I opened the blinds, opened the door
+                                        and shone my phone torch onto the sensor to maximise the ambient light.
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/Embedded/Milestone4/Average_Value.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows how the highest digital value is found. For this value I left the blinds open 
+                                        ,the door closed off and the light as these are my typical working condtions for the time 13:17.
+                                        The weather is cloudy so there isn't as much light as there would be on a sunny day, however, this
+                                        is the UK so that's a typical weather condition. 
+                                    </figcaption>
+                                </figure>
+                                    <figure>
+                                    <img src="images/Embedded/Milestone4/Values.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows the values retrieved from the above explanations.
+                                    </figcaption>
+                                </figure>
 
-                                    <label class="container">Plan Code
-                                    <input type="checkbox" checked="checked" >
-                                    <span class="Home_checklist"></span>
-                                    </label><br>
-
-                                    <label class="container">Configure Pins on STM32CubeIDE
-                                    <input type="checkbox" checked="checked" >
-                                    <span class="Home_checklist"></span>
-                                    </label><br>
-
-                                    <label class="container">Wire Up Sensor
-                                    <input type="checkbox" checked="checked" >
-                                    <span class="Home_checklist"></span>
-                                    </label><br>
-
-                                    <label class="container">Pull data from light sensor
-                                    <input type="checkbox" checked="checked" >
-                                    <span class="Home_checklist"></span>
-                                    </label><br>
-
-                                    <label class="container">Turn Data into readible value
-                                    <input type="checkbox" checked="checked">
-                                    <span class="Home_checklist"></span>
-                                    </label><br>
-
-                                    <label class="container">Use PWM to display on on-board LED
-                                    <input type="checkbox"  >
-                                    <span class="Home_checklist"></span>
-                                    </label><br>
 
                                     <figure>
-                                        <img src="images/Embedded/Milestone4/Green_LED_On.jpg" class="PLC_Completion" alt="Progress Image">
-                                        <figcaption class="html_fig">
-                                            This image shows that when the light is above the set value the green LED will turn on.
-                                        </figcaption>
-                                    </figure>
+                                    <img src="images/Embedded/Milestone4/new_values.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                            This image shows the new values retrieved the method of getting highest, lowest and average
+                                        value was the same. However, I no longer use polling to retrive my adc cavlue is use DMA instead.
+                                    </figcaption>
+                                </figure>
 
-                                    <figure>
-                                        <img src="images/Embedded/Milestone4/Red_LED_on.jpg" class="PLC_Completion" alt="Progress Image">
-                                        <figcaption class="html_fig">
-                                            This image shows that when the light is below the set value the red LED will turn on. Both Imaged
-                                            also highlight the wiring for the LED.
-                                        </figcaption>
-                                    </figure>
+                                    <h3 class="date">23/09/2026</h3>
 
-                                    <h3 class="date">17/09/2026</h3>
-                                    <figure>
-                                        <img src="images/Embedded/Milestone4/Value_Conversion.jpg" class="PLC_Completion" alt="Progress Image">
-                                        <figcaption class="html_fig">
-                                            This image shows how the data is converted from a raw adc value to a digital value.
-                                        </figcaption>
-                                    </figure>
-                                    <figure>
-                                        <img src="images/Embedded/Milestone4/Lowest_Value.jpg" class="PLC_Completion" alt="Progress Image">
-                                        <figcaption class="html_fig">
-                                            This image shows how the lowest digital value is found. For this value I closed all of the blinds,
-                                            closed the door and found a small box with thick cardboard to place over the sensor to minimise as
-                                            much light as possible.
-                                        </figcaption>
-                                    </figure>
-                                    <figure>
-                                        <img src="images/Embedded/Milestone4/Highest_Value.jpg" class="PLC_Completion" alt="Progress Image">
-                                        <figcaption class="html_fig">
-                                            This image shows how the highest digital value is found. For this value I opened the blinds, opened the door
-                                            and shone my phone torch onto the sensor to maximise the ambient light.
-                                        </figcaption>
-                                    </figure>
-                                    <figure>
-                                        <img src="images/Embedded/Milestone4/Average_Value.jpg" class="PLC_Completion" alt="Progress Image">
-                                        <figcaption class="html_fig">
-                                            This image shows how the highest digital value is found. For this value I left the blinds open 
-                                            ,the door closed off and the light as these are my typical working condtions for the time 13:17.
-                                            The weather is cloudy so there isn't as much light as there would be on a sunny day, however, this
-                                            is the UK so that's a typical weather condition. 
-                                        </figcaption>
-                                    </figure>
-                                     <figure>
-                                        <img src="images/Embedded/Milestone4/Values.jpg" class="PLC_Completion" alt="Progress Image">
-                                        <figcaption class="html_fig">
-                                            This image shows the values retrieved from the above explanations.
-                                        </figcaption>
-                                    </figure>
+                                <figure>
+                                    <img src="images/Embedded/Milestone4/new_values.jpg" class="PLC_Completion" alt="Progress Image">
+                                    <figcaption class="html_fig">
+                                        This image shows the new values retrieved the method of getting highest, lowest and average
+                                        value was the same. However, I no longer use polling to retrive my adc cavlue is use DMA instead.
+                                    </figcaption>
+                                </figure>
 
-                            </section>  
+
+                                <video class="PLC_Completion" controls>
+                                    <source src="images/Embedded/Milestone4/LED_Dimming.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <figcaption class="html_fig">
+                                    This video shows succesful completion of the LED dimming. It is bright when the area is dark
+                                    and dark when the area is light as it is meant to represent a home system. This means that as it gets later in the 
+                                    day and naturally darker, the light will get brighter.
+                                </figcaption>
+                        </section> 
         <footer>
             <section>
                 <a href="https://uk.linkedin.com/in/hannah-arnold-848b372a7" target="_blank"><img src="design/linkedin-logo.avif" class="LinkIcon" alt="My LinkedIn Page"/></a>
