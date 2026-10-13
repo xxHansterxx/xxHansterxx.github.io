@@ -3,6 +3,7 @@
 // ==========================================
 
 const developmentDates = [
+    "29/09/2026",
     "25/09/2026",
     "23/09/2026",
     "18/09/2026",
@@ -52,6 +53,9 @@ const developmentDates = [
 // ==========================================
 
 const holidayDates = [
+    "16/10/2026",
+    "15/10/2026",
+    "14/10/2026",
     "07/06/2026",
     "08/06/2026",
     "09/06/2026",
@@ -71,9 +75,22 @@ const holidayDates = [
 // Generate Work Dates
 // Saturday, Sunday and Wednesday
 // ==========================================
+const additionalWorkDates = [
+    "05/10/2026",
+    "06/10/2026",
+    "07/10/2026",
+    "08/10/2026",
+    "09/10/2026",
+];
 
 const workDates = [];
 
+// Add any additional work dates
+additionalWorkDates.forEach(date => {
+    if (!workDates.includes(date)) {
+        workDates.push(date);
+    }
+});
 
 // Starting date for work days
 const startDate = new Date(2026, 4, 22);
@@ -94,7 +111,7 @@ while (workDate <= endDate) {
 
     const dayOfWeek = workDate.getDay();
 
-
+   
     // ==========================================
     // Sunday
     // ==========================================
